@@ -97,7 +97,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background: #ffffff;
+		background: #00ffffff;
 		padding: 20px 0px 20px 0px;
 		font-size: 2em;
 	}
@@ -130,6 +130,7 @@
 	.container {
 		color: #333;
 		padding: 2em;
+		background: #36262d;
 		background-image: url('images/background.png');
 		background-repeat-x: no-repeat;
 		background-repeat-y: no-repeat;
