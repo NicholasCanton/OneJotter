@@ -1,0 +1,165 @@
+	html, body {
+		margin: 0;
+		padding: 0;
+		background: #fff;
+		font-family: 'Poppins', sans-serif;
+		font-size: 12px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #000;
+	}
+
+	h1 { 
+		font-size: 2.5em; 
+	}
+
+	h2 { 
+		font-size: 2.2em; 
+	}
+
+	h3 { 
+		font-size: 1.9em; 
+	}
+
+	h4 { 
+		font-size: 1.6em; 
+	}
+
+	h5 { 
+		font-size: 1.3em; 
+	}
+
+	h6 { 
+		font-size: 1.0em; 
+	}
+
+	p {
+		color: #333;	
+		font-size: 12px;
+	}
+	
+	button {
+		margin: 0px 4px 0px 4px;
+		padding: 4px 8px 4px 8px;
+		border: solid 1px #0a6242;
+		border-radius: 4px;
+		background: #fff;
+		font-size: 12px;
+		color: #0a6242;
+		cursor: pointer;
+	}
+
+	button:hover {
+		color: #fff;
+		background: #0a6242;
+	}
+
+	hr {
+		border-top: 1px solid #eee;
+	}
+
+	ul {
+		display: block;
+    		list-style: none;	
+	}
+
+	ul li {
+  		color: #666;
+		list-style-type: disc;
+	}
+
+	ul li:hover {
+    		cursor: pointer;
+	}
+
+	a:link {
+		color: #308720;
+		text-decoration: none;
+	}
+
+	a:visited {
+		color: #308720;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #308720;
+		text-decoration: none;
+	}
+
+	a:active {
+		color: #308720;
+		text-decoration: none;
+	}
+
+	.navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: #ffffff;
+		padding: 20px 0px 20px 0px;
+		font-size: 2em;
+	}
+
+	.left {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.right {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.line {
+		display:inline;
+		align-items: center;
+	}
+
+	.market {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+		margin-right: 20px;
+	}
+
+	.container {
+		color: #333;
+		padding: 2em;
+	}
+
+	.footer {
+		padding-left: 2em;
+		padding-top: 1em;
+		padding-right: 2em;
+		padding-bottom: 1em;
+		text-align: center;
+		color: #999;
+	}
+
+	.logo {
+		display: block;
+		vertical-align: middle;
+		margin-right: 16px;
+	}
+
+	.screenshot {
+		-moz-border-radius: 8px;
+		-moz-box-shadow : #ccc 0px 0px 0px;
+   		-webkit-box-shadow: #ccc 0px 0px 0px ;
+		box-shadow: #ccc 0px 0px 0px ;
+		border-radius: 8px;
+		width: 270px;
+		height: 480px;
+	}
+
+	.main {
+  		background-color: #eee;
+  		width: 500px;
+  		height: 300px;
+  		overflow: auto;
+	}
