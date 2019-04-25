@@ -1,6 +1,15 @@
-  .container {
-    background: #36262d;
-		background-image: url('images/bg.png');
-		background-repeat-x: no-repeat;
-		background-repeat-y: no-repeat;
-	}
+.container {
+	background: #36262d;
+	background-image: url('images/bg.png');
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+
+
+ul li {
+	color: #fff;
+}
