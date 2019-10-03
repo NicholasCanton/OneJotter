@@ -1,13 +1,13 @@
 	@font-face {
-        	font-family: 'fang';
-       		url('fang.ttf') format('truetype');
+        	font-family: 'chinese';
+       		url('chinese') format('truetype');
 	}
 	
 	html, body {
 		margin: 0;
 		padding: 0;
 		background: #fff;
-		font-family: 'fang', Arial, sans-serif;		
+		font-family: 'chinese', Arial, sans-serif;		
 		font-size: 12px;
 	}
 
