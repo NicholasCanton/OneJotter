@@ -65,7 +65,7 @@
 	}
 
 	ul li {
-  		color: #666;
+  		color: #eee;
 		list-style-type: disc;
 	}
 
@@ -74,22 +74,22 @@
 	}
 
 	a:link {
-		color: #308720;
+		color: #f99a1e;
 		text-decoration: none;
 	}
 
 	a:visited {
-		color: #308720;
+		color: #f99a1e;
 		text-decoration: none;
 	}
 
 	a:hover {
-		color: #308720;
+		color: #f99a1e;
 		text-decoration: none;
 	}
 
 	a:active {
-		color: #308720;
+		color: #f99a1e;
 		text-decoration: none;
 	}
 
@@ -127,7 +127,7 @@
 	}
 
 	.container {
-		color: #333;
+		color: #eee;
 		padding: 2em;
 	}
 
