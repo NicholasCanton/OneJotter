@@ -1,13 +1,13 @@
 	html, body {
 		margin: 0;
 		padding: 0;
-		background: #fff;
+		background: #25323e;
 		font-family: 'Poppins', sans-serif;
 		font-size: 12px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000;
+		color: #fff;
 	}
 
 	h1 { 
@@ -35,7 +35,7 @@
 	}
 
 	p {
-		color: #333;	
+		color: #fff;	
 		font-size: 12px;
 	}
 	
