@@ -7,7 +7,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #222;
+		color: #333b40;
 	}
 
 	h1 { 
@@ -65,7 +65,7 @@
 	}
 
 	ul li {
-  		color: #eee;
+  		color: #6f757b;
 		list-style-type: disc;
 	}
 
@@ -127,7 +127,7 @@
 	}
 
 	.container {
-		color: #eee;
+		color: #6f757b;
 		padding: 2em;
 	}
 
