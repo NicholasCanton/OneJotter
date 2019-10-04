@@ -76,11 +76,6 @@
     		cursor: pointer;
 	}
 
-	li:before {
-    	color: f99a1e; 
-    	margin-right: 4px;
-	}
-
 	a:link {
 		color: #f99a1e;
 		text-decoration: none;
@@ -139,10 +134,7 @@
 	}
 
 	.footer {
-		padding-left: 2em;
-		padding-top: 20em;
-		padding-right: 2em;
-		padding-bottom: 20em;
+		padding: 2em 8em;
 		text-align: center;
 		color: #999;
 	}
