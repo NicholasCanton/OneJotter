@@ -1,6 +1,4 @@
 	html, body {
-		margin: 0;
-		padding: 0;
 		background: #fff;
 		font-size: large;
 		color: #5f5f6f;
@@ -8,7 +6,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #333b40;
-		padding: 24px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 	}
 
 	h1 { 
@@ -129,7 +127,7 @@
 	}
 
 	.container {
-		padding: 100px;
+		padding: 100px 0px;
 	}
 
 	.footer {
