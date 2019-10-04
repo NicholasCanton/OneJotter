@@ -129,11 +129,11 @@
 	}
 
 	.container {
-		padding: 0em;
+		padding: 24px;
 	}
 
 	.footer {
-		padding: 4em;
+		padding: 24px;
 		text-align: center;
 		color: #999;
 	}
