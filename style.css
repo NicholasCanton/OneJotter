@@ -2,13 +2,13 @@
 		margin: 0;
 		padding: 0;
 		background: #fff;
-		font-size: 12px;
+		font-size: 14px;
 		color: #5f5f6f;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #333b40;
-		padding:  0em 0em 0em;
+		padding: 24px 0px 0px 0px;
 	}
 
 	h1 { 
@@ -37,7 +37,7 @@
 
 	p {
 		color: #5f5f6f;	
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 	button {
