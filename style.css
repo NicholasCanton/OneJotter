@@ -181,8 +181,10 @@
 	}
 	
 	.card-text {
+		display: inline-block;
 		font-size: 1.0em; 
     	color: #5f5f6f;
-		padding: 0px 0px 0px 0px;
+    	margin: 20px 0px 0px 0px;
+		padding: 0px;
 	}
 
