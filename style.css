@@ -128,7 +128,7 @@
 	}
 
 	.container {
-		padding: 0px 0px;
+		padding: 0px 60px;
 	}
 
 	.footer {
@@ -165,7 +165,7 @@
 	}
 
 	.card {
-		margin: 50px;
+		margin: 50px 0px;
 		padding: 40px;
 		background: #fff;
 		border-radius: 8px;
