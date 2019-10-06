@@ -10,15 +10,20 @@
 <div class="container">
 <img class="faq-image" src="faq.svg" alt="koala journal faq">
 
-<div class="card">
-	<span class="card-title">考拉日记</span>
-	<span class="card-text">如何能长久的保存日记呢？对每一个人来说，数据安全是最重要的，如何保证这一点呢？解决这个问题的最好方式就是使用通用格式，用户随时可以方便的导出数据到其它应用，因此，考拉日记采用通用的 <a href="https://commonmark.org/help/">Markdown</a> 格式来保存数据，无论在本地还是在云端都采用 <a href="http://textbundle.org/">Text Bundle</a> 和 <a href="http://textbundle.org/">Text Pack</a> 格式来存储数据，这样所带来的好处是世界上其它支持这个格式的编辑器可以很方便的导入考拉日记的数据，这样的话就算有一天这只小考拉不能陪伴着你了也会有很多其它应用可以瞬间导入您的日记，无论是 Windows，macOS 还是 iOS 系统都可以，目前 iOS 系统上比较知名的有 Bear（熊掌记），Ulysses 等。</span>
+	<div class="card">
+		<span class="card-title">考拉日记（Koala Journal）🐨</span>
+		<span class="card-text">考拉日记是一个简洁，易用，功能丰富，以 Markdown 为基础，同时具备笔记类应用特色的日记应用。</span>
 	</div>
 
+	<div class="card">
+		<span class="card-title">如何能持久稳定的保存日记呢？</span>
+		<span class="card-text">		
+			对每一个人来说，能够持久稳定的保存日记是最重要的，如何做到这一点呢？解决这个问题的最好方式就是使用通用格式，可以随时随地方便的导出数据到其它应用，也能快速的从其它应用导入数据到考拉日记，因此，考拉日记采用通用的 <a href="https://commonmark.org/help/">Markdown</a> 格式来保存数据，无论在本地还是在云端都采用 <a href="http://textbundle.org/">Text Bundle</a> 和 <a href="http://textbundle.org/">Text Pack</a> 格式来存储数据，这样所带来的好处是世界上其它支持这个格式的编辑器可以很方便的导入考拉日记的数据，这样的话就算有一天这只小考拉不能陪伴着你了也会有很多其它应用可以无缝的导入你的日记，无论是 Windows，macOS 还是 iOS 系统都可以，目前 iOS 系统上比较知名的有 Bear（熊掌记），Ulysses 等。</span>
+	</div>
 
 	<div class="card">
 	<span class="card-title">日记的内容存储在哪？</span>
-	<span class="card-text">考拉日记的内容存储在 SQLite 数据库中，通常情况下会在存储卡 Android/data/ 目录下创建 com.koalajournal.android 目录，同时缓存一份内容副本在 <strong>koala</strong> 目录中。</span>
+	<span class="card-text">考拉日记的内容存储在 SQLite 数据库中，通常情况下会在存储卡 Android/data/ 目录下创建 com.koalajournal.android 目录，同时会缓存一份内容副本在 <strong>koala</strong> 目录中。</span>
 	</div>
 
 
@@ -36,7 +41,7 @@
 
 	<div class="card">
 	<span class="card-title">如何同步数据？</span>
-	<span class="card-text">考拉日记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器目录下创建一个 <strong>koala</strong> 目录，所有数据都存储在这里，同时您可以开启自动同步功能，开启后，每次创建新日记或者编辑修改之前的日记都会自动同步到 WebDAV 服务器。另外，如果把 <strong>koala</strong> 目录压缩成 <strong>.zip</strong> 文件可以直接导入到 Bear（熊掌记）或 Ulysses 等应用。</span>
+	<span class="card-text">考拉日记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器目录下创建一个 <strong>koala</strong> 目录，所有数据都存储在这里，同时可以开启自动同步功能，开启后，每次创建新日记或者编辑修改之前的日记都会自动同步到 WebDAV 服务器。另外，如果把 <strong>koala</strong> 目录压缩成 <strong>.zip</strong> 文件可以直接导入到 Bear（熊掌记）或 Ulysses 等应用。</span>
 	</div>
 
 
@@ -59,25 +64,25 @@
 
 
 	<div class="card">
-	<span class="card-title">如何导入 Bear（熊掌记）的数据呢？</span>
+	<span class="card-title">如何导入 Bear（熊掌记）的数据？</span>
 	<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个考拉日记可以访问到的目录中，然后打开考拉日记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，考拉日记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
-	<span class="card-title">如何导入 Bear（熊掌记）的单篇笔记呢？</span>
-	<span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a>，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，然后打开考拉日记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.zip）</strong>，点击，考拉日记就会把数据导入进来。</span>
+	<span class="card-title">如何导入 Bear（熊掌记）的单篇笔记？</span>
+	<span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a> 格式，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，然后打开考拉日记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.zip）</strong>，点击，考拉日记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
-	<span class="card-title">如何导入 Ulysses 的数据呢？</span>
+	<span class="card-title">如何导入 Ulysses 的数据？</span>
 	<span class="card-text">选择导出 Ulysses 笔记为 <strong>Text Pack</strong>，然后打开考拉日记，设置，数据，导入，选择 <strong>Text Pack</strong>，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，考拉日记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
-	<span class="card-title">如何与其他应用交换数据呢？</span>
+	<span class="card-title">如何与其他应用交换数据？</span>
 	<span class="card-text">可以利用云盘在考拉日记，Bear，Ulysses 之间进行数据交换。</span>
 	</div>
 
@@ -98,6 +103,7 @@
 	<span class="card-title">如何一次添加多张图片？</span>
 	<span class="card-text">考拉日记支持单次添加多张图片，如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。</span>
 	</div>
+  
 </div>
 <br>
 <br>
