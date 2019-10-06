@@ -1,18 +1,18 @@
 	@media only screen and (min-width: 480px) { 
 		html {
-			font-size:1em;
+			font-size:1px;
 		}
 	} 
 
 	@media only screen and (min-width: 768px) { 
 		html { 
-			font-size: 1.5em; 
+			font-size: 24px; 
 		} 
 	} 
 
 	@media only screen and (min-width: 1140px) { 
 		html { 
-			font-size: 2em;
+			font-size: 32px;
 		} 
 	}
 
@@ -200,7 +200,6 @@
 	
 	.card-text {
 		display: block;
-		font-size: 1.0em; 
     	color: #5f5f6f;
     	margin: 20px 0px 0px 0px;
 		padding: 0px;
