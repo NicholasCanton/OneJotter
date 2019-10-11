@@ -1,40 +1,127 @@
-### 可乐记的笔记存储在哪？
-小伙伴们都对自己的笔记安全问题比较关心，可乐记的笔记到底存储在哪呢？可乐记的笔记存储在 SQLite 数据库中，通常情况下为了数据安全会在存储卡根目录创建 .ColaNotes 目录，在它下面会有一些子目录，其中 note 目录是所有的笔记备份，可以在可乐记设置，备份与恢复页面进行笔记恢复，gallery 是相册目录，为了避免图片被删除或移动而导致在可乐记中无法显示的问题而创建的目录，如果需要数据迁移可以整体复制 .ColaNotes 这个目录到另一台设备进行恢复，也可以通过云盘来恢复，另外，为了笔记安全可乐记没有提供一键清空目录的功能。
-可乐记目前有多种笔记备份方式，手动备份，自动备份，笔记文件备份，云备份。
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-### 如何恢复手动备份的笔记？
-导航菜单 - 设置 - 备份与恢复，点击右上方菜单键（三个点），导入备份文件，找到备份文件（.zip），点击，笔记会自动恢复。
+<link href="style.css" type="text/css" rel="stylesheet">
 
-### 如何恢复自动备份的笔记？
-导航菜单 - 设置 - 备份与恢复，点击右上方菜单键（三个点），导入备份文件，找到备份目录下的最新文件（.zip），点击，笔记会自动恢复，如果没有更改自动备份的目录，那么它通常在存储卡根目录 .ColaNotes/Backup 这个目录中，恢复方式与上面的步骤一样。
+</head>
+<body>
+<title>常见问题</title>
 
-### 如何恢复备份到云盘的笔记？
-首先需要先备份到云盘，添加一个云盘（比如坚果云），然后点击同步笔记选项中的上传按钮，笔记会自动备份到云盘。
-如何恢复呢？首页右上角菜单（三个点），点击同步，打开同步页面，然后点击同步笔记选项中的下载按钮，笔记会自动恢复。
+<div class="container">
+	<div class="card">
+		<span class="card-title">如何能持久稳定的保存笔记呢？</span>
+		<span class="card-text">		
+			对每一个人来说，能够持久稳定的保存笔记是最重要的，如何做到这一点呢？解决这个问题的最好方式就是使用通用格式，可以随时随地方便的导出数据到其它应用，也能快速的从其它应用导入数据到可乐记，因此，可乐记采用通用的 <a href="https://commonmark.org/help/">Markdown</a> 格式来保存数据，无论在本地还是在云端都采用 <a href="http://textbundle.org/">Text Bundle</a> 和 <a href="http://textbundle.org/">Text Pack</a> 格式来存储数据，这样所带来的好处是世界上其它支持这个格式的编辑器可以很方便的导入可乐记的数据，这样的话就算有一天这只小考拉不能陪伴着你了也会有很多其它应用可以无缝的导入你的笔记，无论是 Windows，macOS 还是 iOS 系统都可以，目前 iOS 系统上比较知名的有 Bear（熊掌记），Ulysses 等。</span>
+	</div>
 
-### 如果没做过任何备份如何恢复笔记呢？
-导航菜单 - 设置 - 备份与恢复，点击右上方菜单键（三个点），查看笔记文件，打开笔记文件页面，所有的笔记都将出现在这里。
+	<div class="card">
+	<span class="card-title">笔记的内容存储在哪？</span>
+	<span class="card-text">可乐记的内容存储在 SQLite 数据库中，通常情况下会在存储卡 Android/data/ 目录下创建 com.colanotes.android 目录，同时会缓存一份内容副本在 <strong>notes</strong> 目录中。</span>
+	</div>
 
-### 如何合并笔记？
-点击笔记菜单中的合并，可乐记会弹出合并笔记对话框，点击想要合并到的目标笔记，有两个选项，插入到顶部和追加到底部。
 
-### 如何创建标签？
-可乐记采用了自动标签识别技术，在一个字或词的前后加上#，比如（#可乐记#）那么这个词会被自动识别为标签，同时在导航栏标签页下面也会出现这个标签。
+	<div class="card">
+	<span class="card-title">如何备份笔记内容？</span>
+	<span class="card-text">设置，数据，备份，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 目录，长按创建的内容副本会弹出上下文菜单，可以对备份副本进行还原与分享，另外，这份备份副本可以无缝的导入到 iOS 下的 Bear（熊掌记），Ulysses 等应用中。</span>
+	</div>
 
-### 归档是什么？
-可以把归档想象成一个与世隔绝的地方，那些暂时用不到，删了又可惜的笔记可以把它们加入归档，另外归档了的笔记搜索不到。
 
-### 如何一次添加多张图片？
-可乐记支持单次添加十张图片，如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。
+	<div class="card">
+	<span class="card-title">可以导出哪些格式？</span>
+	<span class="card-text">可乐记目前提供多种导出格式，支持导出为 <strong>文本</strong>, <strong>图片</strong>, <strong>HTML</strong>, <strong>PDF</strong>, <strong>Markdown</strong>, <strong>Text Pack</strong> 等。</span>
+	</div>
 
-### 为什么删除了带图片的笔记后还能在图库中看到这条笔记？
-通常情况下这条笔记应该在废纸篓里面了，而图库并没有过滤废纸篓里面的笔记。
 
-### 如何修改笔记的创建时间？
-嗯，有这个功能，不过是隐藏的功能，看看你能不能发现它吧。
+	<div class="card">
+	<span class="card-title">如何同步数据？</span>
+	<span class="card-text">可乐记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器目录下创建一个 <strong>Cola</strong> 目录，所有数据都存储在这里，同时可以开启自动同步功能，开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。另外，如果把 <strong>Cola</strong> 目录压缩成 <strong>.zip</strong> 文件可以直接导入到 Bear（熊掌记）或 Ulysses 等应用。</span>
+	</div>
 
-### 如何设置 WebDAV 服务器？
-可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址：http://help.jianguoyun.com
 
-### 关于同步与隐私
-我们永远不会出售小伙伴的个人信息，实际上我们根本不想访问小伙伴的数据，这就是为什么可乐记使用第三方网盘来同步备份笔记的原因，另外为了不断改进可乐记，我们可能会使用第三方接口来统计数据，但这些数据中不包含任何敏感信息。
+	<div class="card">
+	<span class="card-title">如何设置 WebDAV 服务器？</span>
+	<span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址：<a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a></span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">可以导入其他应用的数据吗？</span>
+	<span class="card-text">当然可以，可乐记支持导入 Day One，Journey，Bear（熊掌记）等应用的数据。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何导入 Day One 的数据？</span>
+	<span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的目录中，然后打开可乐记，设置，数据，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何导入 Bear（熊掌记）的数据？</span>
+	<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的目录中，然后打开可乐记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何导入 Bear（熊掌记）的单篇笔记？</span>
+	<span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a> 格式，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，然后打开可乐记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何导入 Ulysses 的数据？</span>
+	<span class="card-text">选择导出 Ulysses 笔记为 <strong>Text Pack</strong>，然后打开可乐记，设置，数据，导入，选择 <strong>Text Pack</strong>，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何与其他应用交换数据？</span>
+	<span class="card-text">可以利用云盘在可乐记，Bear，Ulysses 之间进行数据交换，可乐记支持从云盘直接导入数据。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何从云盘导入数据？</span>
+	<span class="card-text">设置，数据，云盘，点击配置好的云盘，打开云盘后长按想导入的数据，在弹出的上下文菜单中选择导入，目前支持导入 <strong>Text</strong>，<strong>Markdown</strong>，<strong>Text Pack</strong> 等格式的数据。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何使用指纹解锁？</span>
+	<span class="card-text">首先需要设置一个密码，再开启指纹，防止指纹失效后无法打开可乐记。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何调整编辑器的行距字号？</span>
+	<span class="card-text">新建或者打开一篇笔记，点击右上角菜单，选择排版，在弹出的对话框中调整行距，字号。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何一次添加多张图片？</span>
+	<span class="card-text">可乐记支持单次添加多张图片，如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。</span>
+	</div>
+
+	<div class="card">
+	<span class="card-title">Markdown 标准语法复杂吗？</span>
+	<span class="card-text">特别特别简单，下面的链接是关于 Markdown 的简易教程。<br><a href="https://commonmark.org/help/">https://commonmark.org/help/</a></span>
+	</div>
+
+   <div class="card">
+	<span class="card-title">有 Markdown 测试文本吗？</span>
+	<span class="card-text">试试它。<br><a href="https://markdown-it.github.io/">https://markdown-it.github.io/</a></span>
+	</div>
+
+
+</div>
+<br>
+<br>
+<div class="footer">
+<p>©2019 cocoa studio</p>
+<p><a href="privacy-chinese.html">Privacy Policy</a>・<a href="Mailto:cocoastudio@outlook.com">Join Us</a>・<a href="Mailto:cocoastudio@outlook.com">Contact Us</a></p>
+</div> 	
+</body>
+</html>
