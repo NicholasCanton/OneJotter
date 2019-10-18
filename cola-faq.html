@@ -18,14 +18,10 @@
 	</div>
 
 	<div class="card">
-		<span class="card-title">如何能持久稳定的保存笔记呢？</span>
-		<span class="card-text">		
-			对每一个人来说，能够持久稳定的保存笔记是最重要的，如何做到这一点呢？解决这个问题的最好方式就是使用通用格式，可以随时随地方便的导出数据到其它应用，也能快速的从其它应用导入数据到可乐记，因此，可乐记采用通用的 <a href="https://commonmark.org/help/">Markdown</a> 格式来保存数据，无论在本地还是在云端都采用 <a href="http://textbundle.org/">Text Bundle</a> 和 <a href="http://textbundle.org/">Text Pack</a> 格式来存储数据，这样所带来的好处是世界上其它支持这个格式的编辑器可以很方便的导入可乐记的数据，无论是 Windows，macOS 还是 iOS 系统都可以，目前 iOS 系统上比较知名的有 Bear（熊掌记），Ulysses 等。</span>
-	</div>
-
-	<div class="card">
 	<span class="card-title">笔记的内容存储在哪？</span>
-	<span class="card-text">可乐记的内容存储在 SQLite 数据库中，通常情况下会在存储卡 Android/data/ 目录下创建 com.colanotes.android 目录，同时会缓存一份内容副本在 <strong>notes</strong> 目录中。</span>
+	<span class="card-text">可乐记的数据存储在 SQLite 数据库中，同时会在存储卡 Android/data/ 目录下创建 com.colanotes.android 目录，存储笔记的数据在 notes 目录中，
+
+以 .textbundle 结尾的目录就是每一篇笔记的数据信息，在出现极端问题时，可以压缩 notes 目录，把压缩后的 <strong>notes.zip</strong> 文件保存到存储卡的<strong>下载</strong> (Download) 目录，然后打开可乐记，设置，导入与导出，还原备份，在弹出的文件选择器中找到刚刚的备份文件<strong>(notes.zip)</strong>进行数据恢复。（这个功能从 1.7.5-176 版本开始生效，请及时更新，可乐记下载地址：<a href="https://colanotes.com">https://colanotes.com</a>）</span>
 	</div>
 
 
@@ -114,14 +110,26 @@
 
 
 	<div class="card">
+	<span class="card-title">如何创建标签？</span>
+	<span class="card-text">可乐记采用了自动标签识别技术，在一个字或词的前后加上#，比如（#可乐记#）那么这个词会被自动识别为标签，同时在导航栏标签页下面也会出现这个标签。</span>
+	</div>
+	
+
+	<div class="card">
 	<span class="card-title">Markdown 标准语法复杂吗？</span>
 	<span class="card-text">特别特别简单，下面的链接是关于 Markdown 的简易教程。<br><a href="https://commonmark.org/help/">https://commonmark.org/help/</a></span>
 	</div>
 
 
-   <div class="card">
+   	<div class="card">
 	<span class="card-title">有 Markdown 测试文本吗？</span>
 	<span class="card-text">试试它。<br><a href="https://markdown-it.github.io/">https://markdown-it.github.io/</a></span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">有 Markdown 测试文本吗？</span>
+	<span class="card-text">试试它。<br><a href="markdown.html">Markdown Text</a></span>
 	</div>
 
 
