@@ -74,7 +74,7 @@
 	}
 
 	hr {
-		border-top: 1px solid #eee;
+		border: 1px solid #eee;
 		margin: 2em 0em;
 	}
 
@@ -186,7 +186,7 @@
 	.card {
 		margin: 16px 0px;
 		padding: 16px;
-		background: #F7F7F7;
+		background: #f7f7f7;
 		border-radius: 8px;
     	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
     	text-align: left;
