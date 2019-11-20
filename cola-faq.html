@@ -10,13 +10,11 @@
 <title>常见问题</title>
 
 <div class="container">
-	<div class="card">
-		<span class="card-title">可乐记和考拉日记有什么区别？</span>
-		<span class="card-text">
-			简单说，可乐（Cola）专注笔记，考拉（Koala）专注日记。但他们之间数据格式是一致的，也就是说，可乐可以导入考拉的数据，考拉可以导入可乐的数据。
-		</span>
+	<div class=right>
+		最新修订版本: 1.7.8.187
 	</div>
-
+	<hr>
+	
 	<div class="card">
 	<span class="card-title">笔记的内容存储在哪？</span>
 	<span class="card-text">可乐记的数据存储在 SQLite 数据库中，同时会在存储卡 Android/data/ 目录下创建 com.colanotes.android 目录，存储笔记的数据在 notes 目录中，
@@ -27,25 +25,86 @@
 
 	<div class="card">
 	<span class="card-title">如何备份笔记内容？</span>
-	<span class="card-text">设置，导入与导出，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 目录，长按创建的内容副本会弹出上下文菜单，可以对备份副本进行还原与分享，另外，这份备份副本可以无缝的导入到 iOS 下的 Bear（熊掌记），Ulysses 等应用中。</span>
+	<span class="card-text">设置，导入与导出，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 目录。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">可以导出哪些格式？</span>
-	<span class="card-text">可乐记目前提供多种导出格式，支持导出为 <strong>文本</strong>, <strong>图片</strong>, <strong>HTML</strong>, <strong>PDF</strong>, <strong>Markdown</strong>, <strong>Text Pack</strong> 等。</span>
+	<span class="card-text">可乐记目前提供多种导出格式，支持导出为 <strong>TXT</strong>，<strong>PDF</strong>，<strong>JPEG</strong>，<strong>HTML</strong>，<strong>EPUB</strong>，<strong>Markdown</strong>，<strong>Text Pack</strong> 等。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何同步数据？</span>
-	<span class="card-text">可乐记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器目录下创建一个 <strong>Cola</strong> 目录，所有数据都存储在这里，同时可以开启自动同步功能，开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。另外，如果把 <strong>Cola</strong> 目录压缩成 <strong>.zip</strong> 文件可以直接导入到 Bear（熊掌记）或 Ulysses 等应用。</span>
+	<span class="card-text">可乐记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器目录下创建一个 <strong>Cola</strong> 目录，所有数据都存储在这里，同时可以开启自动同步功能（高级版功能），开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。另外，如果把 <strong>Cola</strong> 目录压缩成 <strong>.textpack</strong> 文件可以直接导入到 Bear（熊掌记）或 Ulysses 等应用。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何设置 WebDAV 服务器？</span>
-	<span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址：<a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a></span>
+	<span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址 <a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a> 或者也可以试试它 <a href="https://teracloud.jp">https://teracloud.jp</a> 另外 Google Play 版可以直接同步到 Google Drive。
+	</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何创建标签？</span>
+	<span class="card-text">可乐记采用了自动标签识别技术，在一个字或词的前后加上#，比如（#可乐记#）那么这个词会被自动识别为标签，同时在导航栏标签页下面也会出现这个标签。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何快速高效的创建标签？</span>
+	<span class="card-text">选中一个字或词，使它处于选中状态（背景颜色改变），再按下扩展键盘上的标签键（#），这时标签就迅速创建完成了。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">类别是什么？</span>
+	<span class="card-text">可乐记使用类别来分类管理文件夹，比如：工作，生活，学习等。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">类别，文件夹，标签如何进行排序？</span>
+	<span class="card-text">长按拖动进行排序。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何创建一个笔记链接？</span>
+	<span class="card-text">点击扩展键盘上的文档图标，它会弹出笔记的摘要对话框，点击其中一个笔记摘要，就会创建一个笔记链接，点击链接会跳转到链接指向的那篇笔记。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何使用指纹解锁？</span>
+	<span class="card-text">首先需要设置一个密码，再开启指纹，防止指纹失效后无法打开可乐记。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何调整编辑器的行距与字号？</span>
+	<span class="card-text">设置，通用，编辑器，在编辑器页面调整行距，字号等。另外可乐记提供了一个编辑锁，用来防止误删，误触，可以在这里进行开启或关闭。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">编辑器菜单中的预览转换是什么？</span>
+	<span class="card-text">预览转换是一个在富媒体与 Markdown 文本之间进行自由转换的功能。</span>
+	</div>
+
+
+	<div class="card">
+	<span class="card-title">如何一次添加多张图片或文件？</span>
+	<span class="card-text">可乐记支持单次添加多张图片(高级版功能)，如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。比如：<strong><a href="https://www.coolapk.com/apk/io.zhuliang.pipphotos">果仁相册</a></strong>，非常好的相册管理应用，我们开发的过程中选择图片进行富媒体测试时都使用它，加载速度很快，可以试试它。</span>
+	</div>
+
+	
+	<div class="card">
+	<span class="card-title">为什么点击了图片或文件，可乐记却无法添加？</span>
+	<span class="card-text">这个和使用的文件选择器有关，如果发现这个状况请更换一个文件选择器试试。</span>
 	</div>
 
 
@@ -57,25 +116,25 @@
 
 	<div class="card">
 	<span class="card-title">如何导入 Day One 的数据？</span>
-	<span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的目录中，然后打开可乐记，设置，数据，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
+	<span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的目录中，然后打开可乐记，设置，导入与导出，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何导入 Bear（熊掌记）的数据？</span>
-	<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的目录中，然后打开可乐记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
+	<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的目录中，然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何导入 Bear（熊掌记）的单篇笔记？</span>
-	<span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a> 格式，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，然后打开可乐记，设置，数据，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
+	<span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a> 格式，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，再把文件扩展名改为 <strong>.textpack</strong> 然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何导入 Ulysses 的数据？</span>
-	<span class="card-text">选择导出 Ulysses 笔记为 <strong>Text Pack</strong>，然后打开可乐记，设置，数据，导入，选择 <strong>Text Pack</strong>，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
+	<span class="card-text">选择导出 Ulysses 笔记为 <strong>Text Pack</strong>，然后打开可乐记，设置，导入与导出，导入，选择 <strong>Text Pack</strong>，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
 	</div>
 
 
@@ -92,47 +151,9 @@
 
 
 	<div class="card">
-	<span class="card-title">如何使用指纹解锁？</span>
-	<span class="card-text">首先需要设置一个密码，再开启指纹，防止指纹失效后无法打开可乐记。</span>
-	</div>
-
-
-	<div class="card">
-	<span class="card-title">如何调整编辑器的行距字号？</span>
-	<span class="card-text">新建或者打开一篇笔记，点击右上角菜单，选择排版，在弹出的对话框中调整行距，字号。</span>
-	</div>
-
-
-	<div class="card">
-	<span class="card-title">如何一次添加多张图片？</span>
-	<span class="card-text">可乐记支持单次添加多张图片，如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。比如：<strong><a href="https://www.coolapk.com/apk/io.zhuliang.pipphotos">果仁相册</a></strong>，非常好的一个相册管理应用，我们开发的过程中选择图片进行富媒体测试时都使用它，加载速度很快，您可以试试它。</span>
-	</div>
-
-
-	<div class="card">
-	<span class="card-title">如何创建标签？</span>
-	<span class="card-text">可乐记采用了自动标签识别技术，在一个字或词的前后加上#，比如（#可乐记#）那么这个词会被自动识别为标签，同时在导航栏标签页下面也会出现这个标签。</span>
-	</div>
-	
-
-	<div class="card">
 	<span class="card-title">Markdown 标准语法复杂吗？</span>
 	<span class="card-text">特别特别简单，下面的链接是关于 Markdown 的简易教程。<br><a href="https://commonmark.org/help/">https://commonmark.org/help/</a></span>
 	</div>
-
-
-   	<div class="card">
-	<span class="card-title">有 Markdown 测试文本吗？</span>
-	<span class="card-text">试试它。<br><a href="https://markdown-it.github.io/">https://markdown-it.github.io/</a></span>
-	</div>
-
-
-	<div class="card">
-	<span class="card-title">有 Markdown 测试文本吗？</span>
-	<span class="card-text">试试它。<br><a href="markdown.html">Markdown Text</a></span>
-	</div>
-
-
 </div>
 <br>
 <br>
