@@ -17,8 +17,8 @@
 	}
 
 	html, body {
-		background: #f5f5f5;
-		color: #5f5f6f;
+		background: #ffffff;
+		color: #5f5f5f;
 		font-size: 14px;
 		font-family: "Source Han Sans CN";
 		line-height:1.618
@@ -59,7 +59,7 @@
 	
 	button {
 		margin: 0px 4px 0px 4px;
-		padding: 4px 8px 4px 8px;
+		padding: 12px 16px 12px 16px;
 		border: solid 1px #f99a1e;
 		border-radius: 4px;
 		background: #fff;
@@ -130,6 +130,7 @@
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
+		vertical-align: middle
 	}
 
 	.line {
@@ -185,23 +186,31 @@
 	.card {
 		margin: 16px 0px;
 		padding: 16px;
-		background: #fff;
+		background: #F7F7F7;
 		border-radius: 8px;
     	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
     	text-align: left;
 	}
 
 	.card-title {
-		font-size: 1.2em; 
+		font-size: 1.1em; 
 		font-weight: bold;
-    	color: #333b40;
+    	color: #474747;
 		padding: 0px 0px 0px 0px;
 	}
 	
 	.card-text {
 		display: block;
-    	color: #5f5f6f;
+    	color: #595959;
     	margin: 16px 0px 0px 0px;
 		padding: 0px;
+	}
+
+	.strong {
+		margin: 0px 4px;
+		padding: 2px 8px;
+		background: #fff;
+		border: solid 1px #efefef;
+		border-radius: 8px;
 	}
 
