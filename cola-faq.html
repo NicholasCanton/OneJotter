@@ -17,15 +17,15 @@
 	
 	<div class="card">
 	<span class="card-title">笔记的内容存储在哪？</span>
-	<span class="card-text">可乐记的数据存储在 SQLite 数据库中，同时会在存储卡 Android/data/ 目录下创建 com.colanotes.android 目录，存储笔记的数据在 notes 目录中，
+	<span class="card-text">可乐记的数据存储在 SQLite 数据库中，同时会在存储卡 Android/data/ 文件夹下创建 com.colanotes.android 文件夹，存储笔记的数据在 notes 文件夹中，
 
-以 <strong>.textbundle</strong> 结尾的目录就是每一篇笔记的数据信息，在出现极端问题时，可以压缩 notes 目录，把压缩后的 <strong>notes.zip</strong> 文件保存到存储卡的 <strong>Download</strong> 目录，同时扩展名改为 <strong>.textpack</strong>，也就是 <strong>notes.textpack</strong>，然后打开可乐记，设置，导入与导出，还原备份，在弹出的文件选择器中找到刚刚的备份文件 <strong>notes.textpack</strong> 进行数据恢复。</span>
+以 <strong>.textbundle</strong> 结尾的文件夹就是每一篇笔记的数据信息，在出现极端问题时，可以压缩 notes 文件夹，把压缩后的 <strong>notes.zip</strong> 文件保存到存储卡的 <strong>Download</strong> 文件夹，同时扩展名改为 <strong>.textpack</strong>，也就是 <strong>notes.textpack</strong>，然后打开可乐记，设置，导入与导出，还原备份，在弹出的文件选择器中找到刚刚的备份文件 <strong>notes.textpack</strong> 进行数据恢复。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何备份笔记内容？</span>
-	<span class="card-text">设置，导入与导出，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 目录。</span>
+	<span class="card-text">设置，导入与导出，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 文件夹。</span>
 	</div>
 
 
@@ -37,13 +37,13 @@
 
 	<div class="card">
 	<span class="card-title">如何同步数据？</span>
-	<span class="card-text">可乐记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器目录下创建一个 <strong>Cola</strong> 目录，所有数据都存储在这里，同时可以开启自动同步功能（高级版功能），开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。另外，如果把 <strong>Cola</strong> 目录压缩成 <strong>.textpack</strong> 文件可以直接导入到 Bear（熊掌记）或 Ulysses 等应用。</span>
+	<span class="card-text">可乐记目前使用 WebDAV 技术实现数据同步功能，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器上创建一个 <strong>Cola</strong> 文件夹，所有数据都存储在这里，同时可以开启自动同步功能（高级版功能），开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何设置 WebDAV 服务器？</span>
-	<span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址 <a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a> 或者也可以试试它 <a href="https://teracloud.jp">https://teracloud.jp</a> 另外 Google Play 版可以直接同步到 Google Drive。
+	<span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址 <a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a> 或者也可以试试它 <a href="https://teracloud.jp">https://teracloud.jp</a>
 	</span>
 	</div>
 
@@ -122,13 +122,13 @@
 
 	<div class="card">
 	<span class="card-title">如何导入 Day One 的数据？</span>
-	<span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的目录中，然后打开可乐记，设置，导入与导出，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
+	<span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的文件夹中，然后打开可乐记，设置，导入与导出，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
 	</div>
 
 
 	<div class="card">
 	<span class="card-title">如何导入 Bear（熊掌记）的数据？</span>
-	<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的目录中，然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
+	<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的文件夹中，然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
 	</div>
 
 
