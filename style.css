@@ -17,7 +17,7 @@
 	}
 
 	html, body {
-		background: #ffffff;
+		background: #f6f7f8;
 		color: #5f5f5f;
 		font-size: 14px;
 		font-family: "Source Han Sans CN";
@@ -186,7 +186,7 @@
 	.card {
 		margin: 16px 0px;
 		padding: 16px;
-		background: #f7f7f7;
+		background: #fff;
 		border-radius: 8px;
     	text-align: left;
 
