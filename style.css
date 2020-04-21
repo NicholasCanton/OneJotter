@@ -55,8 +55,7 @@
 
 	p {
 		color: #5f5f6f;	
-		  margin: 0em 2em;
-
+		margin: 0em 2em;
 	}
 	
 	button {
@@ -95,22 +94,22 @@
 	}
 
 	a:link {
-		color: #f99a1e;
+		color: #2977d7;
 		text-decoration: none;
 	}
 
 	a:visited {
-		color: #f99a1e;
+		color: #2977d7;
 		text-decoration: none;
 	}
 
 	a:hover {
-		color: #f99a1e;
+		color: #2977d7;
 		text-decoration: none;
 	}
 
 	a:active {
-		color: #f99a1e;
+		color: #2977d7;
 		text-decoration: none;
 	}
 
