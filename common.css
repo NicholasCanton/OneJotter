@@ -24,6 +24,7 @@
         font-size: 14px;
         font-family: 'helvetica neue', helvetica, arial, sans-serif;
         line-height:1.618
+         -webkit-text-size-adjust: none;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -58,8 +59,6 @@
     p {
         color: #333; 
         margin: 2em 0em;
-        max-height: 100%;
-        -webkit-text-size-adjust: none;
     }
     
     button {
@@ -136,7 +135,6 @@
     ul li span {
         color: #666;
         max-height: 100%;
-        -webkit-text-size-adjust: none;
     }
 
     ul li:hover {
@@ -313,8 +311,6 @@
         margin: 0px 24px;
         color: #666;
         font-weight:bold;
-        max-height: 100%;
-        -webkit-text-size-adjust: none;
     }
 
     .item img {
