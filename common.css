@@ -1,458 +1,328 @@
-/*
-* Free to use under the MIT license.
-* https://www.opensource.org/licenses/mit-license.php
-*/
+    @media only screen and (min-width: 480px) { 
+        html {
+            font-size:14px;
+        }
+    } 
 
+    @media only screen and (min-width: 768px) { 
+        html { 
+            font-size: 14px; 
+        } 
+    } 
 
-html,body {
-  height: 97%;
-  margin: 0;
-}
-
-#fullpage, .section {
-  height: 100%;
-}
-
-.slide {
-  height: 100%;
-  min-height: 100%;
-  display: none;
-}
-
-.active {
-  display: block;
-}
-
-html>body .slide {
-  height: auto;
-}
-
-/* #Blockquotes
-================================================== */
-blockquote {
-  border-left: 5px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-}
-blockquote:before {
-  color: #ccc;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-/* #Code
-================================================== */
-.code-block {
-	background:#F1F1F1;
-	border: 1px solid #E1E1E1;
-	border-radius: 4px;
-	font-size: 90%;
-	padding: .2rem .5rem;
-	font-family: 'Roboto Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
-}
-
-
-/* sweet-alert customization
-================================================== */
-.sa-button-container {
-    display: none;
-}
-.sweet-alert {
-    top: 30%;
-}
-
-/* #General
-================================================== */
-.center {
-	text-align: center;
-}
-
-.custom-hr {
-	border-top: 3px solid #E1E1E1;
-    margin-top: 1rem;
-}
-
-p {
-	margin-bottom: 1.5em;
-}
-
-.container {
-	margin-top: 2em;
-}
-
-.button-primary
-{
-    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
-    border-color: #4FCAEF !important;
-    border-bottom: 2px #2A9EC1 solid !important;
-    border-right: 2px #2A9EC1 solid !important;
-}
-
-.button-urgent
-{
-    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
-    background-color: #d95353 !important;
-    border: #E37E7E !important; 
-    border-bottom: 2px #AD4343 solid !important;
-    border-right: 2px #AD4343 solid !important;
-}
-
-
-button.button-previous:before {
-	content: "\2190";
-	font-size: 1.3em;
-	margin-right: 1em;
-}
-button.button-next:after, a.button-next-lesson:after {
-	content: "\2192";
-	font-size: 1.3em;
-	margin-left: 1em;
-}
-
-.noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.six.columns label {
-    color: #999;
-    font-weight: normal;
-    font-size: 0.8em;
-    margin-top: 5px;
-}
-
-input[type="checkbox"] {
-    vertical-align: -2px;
-}
-
-.spaces {
-    color:#888;
-}
-
-
-
-/* format the editors for the exercises */
-.editor {
-	width: 100%;
-    max-width: 100%;
-	height: 11.7em;
-	border: 1px #666 solid;
-	margin-bottom: 0em;
-}
-code, kbd, pre, samp, .editor, .html-pad, .preformatted {
-	font: 1em/normal 'Roboto Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
-}
-.preformatted {
-    font-size: 0.9em;
-}
-.render-pad, .html-pad {
-	font-size: 0.9em;
-	height: 13em;
-	border: 1px #999 dotted; 
-	overflow: auto;
-	padding: 0.5em;
-}
-.html-pad { 
-	display: none;
-}
-
-.lesson-number {
-    font-size:5em;
-    color: #ddd;
-    border: 10px #ddd solid;
-    width:150px;
-    border-radius:50%;
-    padding-left:22px;
-    font-weight: bold;
-}
-
-.muted {
-    color: #aaa;
-}
-
-.muted a {
-    color: #aaa;
-}
-
-/* mobile modifications */
-@media (max-width: 737px) {
-	.editor {
-		height: 9em;
-        font-size: 0.9em;
-	}
-	.render-pad, .html-pad {
-		height: 10em;
-	}
-    .lesson-number {
-        font-size: 30px;
-        border: none;
-        padding-left: 0;
+    @media only screen and (min-width: 1140px) { 
+        html { 
+            font-size: 14px;
+        } 
     }
-    .rowspacer {
-        display: none;
-    }
-    .container {
-        margin-top: 0.5em;
-        padding: 0 10px;
-    }
-    h1 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-    }
-    h2 {        
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-    }
-    .generated-check {
-        display: none;
-    }
-    .button-answer {
-        margin-top: 1em;
-        margin-bottom: -1em;
-    }
-    .button-reset {
-        margin-top: 1em;
-        margin-bottom: -1em;
-    }
-    .row.exercise-instructions p {
-        margin-bottom: 0.4em;
-    }
-    .cd-container {
+
+    html, body {
+        background: #fff;
+        color: #222;
+        height: 100%;
         margin: 0;
+        font-size: 14px;
+        font-family: 'helvetica neue', helvetica, arial, sans-serif;
+        line-height:1.618
     }
-    .second-example {
-        display: none;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #111;
+        padding: 0px 0px 0px 0px;
     }
-}
 
-
-/* iPhone 6 height */
-@media (min-height: 570px) and (max-width: 737px) {
-    .editor {
-        height: 180px;
-        font-size: 1em;
+    h1 { 
+        font-size: 2.4em; 
     }
-    .render-pad, .html-pad {
-        height: 180px;
-        font-size: 1em;
+
+    h2 { 
+        font-size: 2.0em; 
     }
-}
 
-/* iPhone 6 plus height */
-@media (min-height: 730px) and (max-width: 737px) {
-    .editor {
-        height: 230px;
-        font-size: 1em;
+    h3 { 
+        font-size: 1.6em; 
     }
-    .render-pad, .html-pad {
-        height: 230px;
-        font-size: 1em;
+
+    h4 { 
+        font-size: 1.4em; 
     }
-}
 
-
-/* tiny desktop height */
-@media (min-height: 550px) and (min-width:820px) {
-    .editor {
-        height: 240px;
+    h5 { 
+        font-size: 1.2em; 
     }
-    .render-pad, .html-pad {
-        height: 240px;
+
+    h6 { 
+        font-size: 1.0em; 
     }
-}
 
-
-/* small desktop height */
-@media (min-height: 650px) and (min-width:820px) {
-    .editor {
-        height: 340px;
-        font-size: 1em;
+    p {
+        color: #333; 
+        margin: 2em 0em;
     }
-    .render-pad, .html-pad {
-        height: 340px;
-        font-size: 1em;
+    
+    button {
+        margin: 0px 4px 0px 4px;
+        padding: 12px 16px 12px 16px;
+        border: solid 1px #2792fb;
+        border-radius: 4px;
+        background: #000;
+        font-size: 1.4em;
+        color: #fff;
+        cursor: pointer;
+        width: 177.2;
+        height: 51.2;
     }
-}
 
-
-/* regular desktop height */
-@media (min-height: 750px) and (min-width:820px) {
-    .editor {
-        height: 440px;
-        font-size: 1em;
+    button: hover {
+        color: #fff;
+        background: #2792fb;
     }
-    .render-pad, .html-pad {
-        height: 440px;
-        font-size: 1em;
+
+    table {
+        color: #111;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: 1px solid #f2f4f6;
+        width: 100%;
     }
-}
+
+    table th {
+        background-color: #f2f4f6;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    table td {
+        border: 1px solid #f2f4f6;
+        padding: 10px 20px;
+        text-align: center;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .one {
+
+    }
+
+    .two {
+        width: 10%;
+    }
+
+    .three {
+        width: 10%;
+    }
+
+    hr {
+        border: 1px solid #f2f4f6;
+        margin: 2em 0em;
+    }
+
+    ul {
+        list-style: none;
+        display: block;
+        list-style-position: outside;
+    }
+
+    ul li {
+        color: #666;
+        margin-left: 36px;
+        background: url("images/check.svg") left center no-repeat;
+        padding-left: 2em;
+
+    }
+
+    ul li span {
+        color: #666;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+
+    a:link {
+        color: #54c2f9;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #54c2f9;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #54c2f9;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: #54c2f9;
+        text-decoration: none;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        background-image: url("images/clouds.png");
+        background: linear-gradient(#ffffff, #ffffff);
+    }
+
+    .left {
+        display: flex;
+        justify-content: flex-start;
+        vertical-align: middle;
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.2em;
+
+    }
+
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        vertical-align: middle
+        background-color: #aaa;
+    }
+
+    .coolapk {
+        cursor: pointer;
+        margin: 0px 20px;
+    }
+
+    .container {
+        padding: 0px 30px;
+    }
+
+    .footer {
+        background: #f2f4f6;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        color: #999;
+    }
+
+    .logo {
+        display: block;
+        vertical-align: middle;
+        background: #f2f4f6;
+        margin-right: 12px;
+        border-radius:24px;
+        -moz-border-radius:24px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .screenshot {
+        -moz-border-radius: 8px;
+        -moz-box-shadow : #ccc 0px 0px 0px;
+        -webkit-box-shadow: #ccc 0px 0px 0px ;
+        box-shadow: #ccc 0px 0px 0px ;
+        border-radius: 8px;
+        width: 270px;
+        height: 480px;
+    }
+
+    .line {
+        display:inline;
+        align-items: center;
+    }
+
+    .market {
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+    .main {
+        background-color: #eee;
+        width: 500px;
+        height: 300px;
+        overflow: auto;
+    }
+
+    .faq-image {
+        max-width:100% !important; height:auto !important;
+    }
+
+    .card {
+        margin: 16px 0px;
+        padding: 16px;
+        background: #fff;
+        border-radius: 8px;
+        text-align: left;
+
+        box-shadow: 0 0 0px #c0c0c0;
+        outline: none;
+
+        background-position: center;
+        transition: background 0.8s;
+    }
+
+    .card-title {
+        font-size: 1.1em; 
+        font-weight: bold;
+        color: #272727;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .card-text {
+        display: block;
+        color: #454545;
+        margin: 16px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .card: hover {
+        background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    }
+
+    .card: active {
+        background-color: #f7f7f7;
+        background-size: 100%;
+        transition: background 0s;
+    }
+
+    .extension {
+        margin: 0px 4px;
+        padding: 2px 8px;
+        background: #fff;
+        border: solid 1px #efefef;
+        border-radius: 8px;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-top: 50px;
+    }
+
+    .item h1, h2, h3, h4, h5, h6 {
+        margin: 0px 24px;
+    }
+
+    .item p {
+        margin: 0px 24px;
+        color: #666;
+        font-weight:bold;
+    }
+
+    .item img {
+        border: 2px solid #f2f4f6;
+        border-radius:24px;
+        -moz-border-radius:25px;
+        width: 24px;
+        height: 24px;
+        padding: 12px;
+    }
+
+    .item hr {
+        border: 1px solid #f2f4f6;
+        margin: 32px 0em; 
+    }
 
 
-/* fixed footer */
-#footer{
-	position:fixed;
-	height: 40px;
-	display:block;
-	width: 100%;
-	background: rgba(255, 255, 255, 1.0);
-	z-index:9;
-	text-align:center;
-	color: #333;
-	padding: 15px 0 0 0;
-}
-
-#footer {
-	bottom:0px;
-}
-
-.touch #footer {
-	display: none;
-}
-
-/* #Slide Menu (adapted from https://tympanus.net/codrops/2014/01/21/dot-navigation-styles/)
-================================================== */
-.dotstyle ul {
-	position: relative;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	cursor: default;
-	-webkit-touch-callout: none;
-	user-select: none;
-}
-
-.dotstyle li {
-	position: relative;
-	display: block;
-	float: left;
-	margin: 0 16px;
-	width: 20px;
-	height: 20px;
-	cursor: pointer;
-}
-
-.dotstyle li a {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	outline: none;
-	border-radius: 50%;
-	background-color: #000;
-	background-color: rgba(255, 255, 255, 0.3);
-	text-indent: -999em; /* make the text accessible to screen readers */
-	cursor: pointer;
-	position: absolute;
-}
-
-.dotstyle li a:focus {
-	outline: none;
-}
-
-/* Individual styles and effects */
-
-/* Fill up */
-
-.dotstyle-fillup li a {
-	overflow: hidden;
-	background-color: transparent;
-	box-shadow: inset 0 0 0 2px black;
-	transition: background 0.3s ease;
-}
-
-.dotstyle-fillup li a::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	height: 0;
-	left: 0;
-	width: 100%;
-	background-color: #000;
-	box-shadow: 0 0 1px #000;
-	transition: height 0.3s ease;
-}
-
-.dotstyle-fillup li a:hover,
-.dotstyle-fillup li a:focus {
-	background-color: rgba(0, 0, 0, 0.2);
-}
-
-.dotstyle-fillup li.current a::after {
-	height: 100%;
-}
-
-/* fix some editor preview style issues */
-
-.render-pad li > pre, .render-pad li > preblockquote { 
-	margin-left: 1em;
-}
-.render-pad li > p:not(:first-child) { 
-	margin-left: 1em;
-}
-
-.render-pad h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-/* headers are ridiculously friggin' big in skeleton */
-.render-pad h1 {
-    font-size:2.2rem;
-}
-.render-pad h2 {
-    font-size:1.9rem;
-}
-.render-pad h3 {
-    font-size:1.7rem;
-}
-.render-pad h4 {
-    font-size:1.5rem;
-}
-.render-pad h5 {
-    font-size:1.4rem;    
-}
-.render-pad h6 {
-    font-size: 1.4rem;    
-}
-
-
-.render-pad p {
-    margin-bottom: 1em;
-}
-
-/* reference card fixups */
-
-.smaller-h1 {
-    font-size:2.2rem;
-}
-
-.smaller-h2 {
-    font-size:2rem;
-    font-weight: normal;
-}
-
-.markdown-reference {
-    width: 100%;
-}
-
-/* fixup for list exercise with long ol number */
-#render_pad_8-3 ol {
-    padding-left: 40px;
-}
-
-/* syntax highlighting for the "show generated HTML" tags */
-.hljs-tag {
-    color: maroon !important;
-    font-weight: normal !important;
-}
-.hljs-title {
-    color: maroon !important;
-    font-weight: normal !important;
-}
