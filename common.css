@@ -70,8 +70,8 @@
         font-size: 1.4em;
         color: #fff;
         cursor: pointer;
-        width: 177.2;
-        height: 51.2;
+        width: 177.2px;
+        height: 51.2px;
     }
 
     button: hover {
@@ -97,20 +97,6 @@
         border: 1px solid #f2f4f6;
         padding: 10px 20px;
         text-align: center;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-
-    .one {
-
-    }
-
-    .two {
-        width: 10%;
-    }
-
-    .three {
-        width: 10%;
     }
 
     hr {
@@ -128,7 +114,7 @@
 
     ul li {
         color: #666;
-        margin-left: 36px;
+        margin-left: 40px;
         background: url("images/check.svg") left center no-repeat;
         padding-left: 2em;
     }
@@ -186,12 +172,30 @@
         justify-content: flex-end;
         align-items: center;
         vertical-align: middle
-        background-color: #aaa;
+        font-weight: bold;
+        font-size: 1.2em;
     }
 
     .coolapk {
+        display: flex;
         cursor: pointer;
         margin: 0px 20px;
+        border: 1px solid #f2f4f6;
+        min-height: 52px;
+        background-color: #000;
+        align-items: center;
+        border-radius: 8px;
+        padding: 0px 12px;
+
+    }
+
+    .one {
+        text-align: left; 
+    }
+
+    .compare {
+        width: 10%;
+        text-align: center; 
     }
 
     .container {
@@ -210,10 +214,10 @@
         vertical-align: middle;
         background: #f2f4f6;
         margin-right: 12px;
-        border-radius:24px;
-        -moz-border-radius:24px;
-        width: 48px;
-        height: 48px;
+        border-radius: 30px;
+        -moz-border-radius: 30px;
+        width: 60px;
+        height: 60px;
     }
 
     .screenshot {
@@ -315,10 +319,10 @@
 
     .item img {
         border: 2px solid #f2f4f6;
-        border-radius:24px;
-        -moz-border-radius:25px;
-        width: 24px;
-        height: 24px;
+        border-radius: 30px;
+        -moz-border-radius: 30px;
+        width: 30px;
+        height: 30px;
         padding: 12px;
     }
 
