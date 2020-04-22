@@ -135,6 +135,8 @@
 
     ul li span {
         color: #666;
+        max-height: 100%;
+        -webkit-text-size-adjust: none;
     }
 
     ul li:hover {
@@ -311,6 +313,8 @@
         margin: 0px 24px;
         color: #666;
         font-weight:bold;
+        max-height: 100%;
+        -webkit-text-size-adjust: none;
     }
 
     .item img {
