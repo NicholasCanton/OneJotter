@@ -58,6 +58,8 @@
     p {
         color: #333; 
         margin: 2em 0em;
+        max-height: 100%;
+        -webkit-text-size-adjust: none;
     }
     
     button {
