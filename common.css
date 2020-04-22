@@ -134,7 +134,7 @@
 
     ul li span {
         color: #666;
-        max-height: 100%;
+        font-size: 1.0em;
     }
 
     ul li:hover {
