@@ -17,6 +17,7 @@
     }
 
     html, body {
+        -webkit-text-size-adjust: none;
         background: #fff;
         color: #222;
         height: 100%;
@@ -24,7 +25,6 @@
         font-size: 14px;
         font-family: 'helvetica neue', helvetica, arial, sans-serif;
         line-height:1.618
-         -webkit-text-size-adjust: none;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -119,9 +119,11 @@
     }
 
     ul {
+        -webkit-text-size-adjust: none;
         list-style: none;
         display: block;
         list-style-position: outside;
+        font-size: 1.0em;
     }
 
     ul li {
@@ -129,12 +131,10 @@
         margin-left: 36px;
         background: url("images/check.svg") left center no-repeat;
         padding-left: 2em;
-
     }
 
     ul li span {
         color: #666;
-        font-size: 1.0em;
     }
 
     ul li:hover {
@@ -311,7 +311,6 @@
     .item p {
         margin: 0px 24px;
         color: #666;
-        font-weight:bold;
     }
 
     .item img {
