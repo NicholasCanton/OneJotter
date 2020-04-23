@@ -1,27 +1,9 @@
-    @media only screen and (min-width: 480px) { 
-        html {
-            font-size:14px;
-        }
-    } 
-
-    @media only screen and (min-width: 768px) { 
-        html { 
-            font-size: 14px; 
-        } 
-    } 
-
-    @media only screen and (min-width: 1140px) { 
-        html { 
-            font-size: 14px;
-        } 
-    }
-
     html, body {
         background: #fff;
         color: #111;
         height: 100%;
         margin: 0;
-        font-size: 14px;
+        font-size: 2vh;
         font-family: 'helvetica neue', helvetica, arial, sans-serif;
         line-height:1.618
     }
@@ -333,6 +315,7 @@
         width: 30px;
         height: 30px;
         padding: 12px;
+        background-color: #f0f2f4;
     }
 
     .item hr {
@@ -344,24 +327,3 @@
         display: flex;
         margin: 32px 0em; 
     }
-
-
-.horizontal-scroll-wrapper {
-  display:flex;
-  width: 80%;
-  height: 320px;
-  margin:0;
-  overflow-y:auto;
-  overflow-x:auto;
-  border-radius: 2px;
-  box-shadow: 4px 4px 2px #f2f4f6;
-
-}
-
-.horizontal-scroll-wrapper div {
-  display: block;
-  height: 300px;
-  padding: 10px;
-}
-
-
