@@ -1,10 +1,27 @@
 
+    @media only screen and (min-width: 480px) { 
+        html {
+            font-size: 1vw;
+        }
+    } 
+
+    @media only screen and (min-width: 768px) { 
+        html { 
+            font-size: 1vw; 
+        } 
+    } 
+
+    @media only screen and (min-width: 1140px) { 
+        html { 
+            font-size: 1vw;
+        } 
+    }
+
     html, body {
         background: #fff;
         color: #111;
         height: 100%;
         margin: 0;
-        font-size: 2vh;
         font-family: 'helvetica neue', helvetica, arial, sans-serif;
         line-height:1.618
     }
@@ -150,18 +167,8 @@
         font-size: 1.2em;
     }
 
-    .coolapk {
-        display: flex;
-        cursor: pointer;
+    .download {
         margin: 0px 20px;
-        border: 1px solid #f2f4f6;
-        min-height: 52px;
-        background-color: #000;
-        align-items: center;
-        border-radius: 8px;
-        padding: 0px 12px 0px 4px;
-        color: fff;
-        font-weight: bold;
     }
 
     .one {
@@ -332,24 +339,3 @@
         display: flex;
         margin: 32px 0em; 
     }
-
-
-.horizontal-scroll-wrapper {
-  display:flex;
-  width: 80%;
-  height: 320px;
-  margin:0;
-  overflow-y:auto;
-  overflow-x:auto;
-  border-radius: 2px;
-  box-shadow: 4px 4px 2px #f2f4f6;
-
-}
-
-.horizontal-scroll-wrapper div {
-  display: block;
-  height: 300px;
-  padding: 10px;
-}
-
-
