@@ -1,3 +1,4 @@
+
     html, body {
         background: #fff;
         color: #111;
@@ -38,7 +39,7 @@
     }
 
     p {
-        color: #666; 
+        color: #454545;
         margin: 2em 0em;
     }
     
@@ -66,19 +67,21 @@
         border-collapse: collapse;
         border: 1px solid #f0f2f4;
         width: 100%;
-
+        font-size: inherit;
     }
 
     table th {
         background-color: #f0f2f4;
         padding: 10px 20px;
         text-align: center;
+        font-size: inherit;
     }
 
     table td {
         border: 1px solid #f0f2f4;
         padding: 10px 20px;
         text-align: center;
+        font-size: inherit;
     }
 
     hr {
@@ -87,11 +90,11 @@
     }
 
     ul {
-        
+       font-size: inherit; 
     }
 
     ul li {
-    
+        font-size: inherit;
     }
 
     ul li:hover {
@@ -163,6 +166,7 @@
 
     .one {
         text-align: left; 
+        color: #454545;
     }
 
     .compare {
@@ -171,18 +175,19 @@
     }
 
     .list-wrapper ul {
+        font-size: inherit;
         list-style: none;
         display: block;
         list-style-position: outside;
     }
 
     .list-wrapper li {
-        color: #8f9095;
+        font-size: inherit;
+        color: #454545;
         margin-left: 40px;
         background: url("images/check.svg") left center no-repeat;
         padding-left: 2em;
     }
-
 
     .list-wrapper {
         display: block;
@@ -193,7 +198,7 @@
     }
 
     .footer {
-        padding: 10px 0px 10px 0px;
+        padding: 30px;
         text-align: center;
         color: #999;
     }
@@ -305,17 +310,17 @@
 
     .item p {
         margin: 0px 24px;
-        color: #666;
+        color: #909090;
     }
 
     .item img {
         border: 2px solid #f0f2f4;
+        background-color: #f0f2f4;
         border-radius: 16px;
         -moz-border-radius: 30px;
         width: 30px;
         height: 30px;
         padding: 12px;
-        background-color: #f0f2f4;
     }
 
     .item hr {
@@ -327,3 +332,24 @@
         display: flex;
         margin: 32px 0em; 
     }
+
+
+.horizontal-scroll-wrapper {
+  display:flex;
+  width: 80%;
+  height: 320px;
+  margin:0;
+  overflow-y:auto;
+  overflow-x:auto;
+  border-radius: 2px;
+  box-shadow: 4px 4px 2px #f2f4f6;
+
+}
+
+.horizontal-scroll-wrapper div {
+  display: block;
+  height: 300px;
+  padding: 10px;
+}
+
+
