@@ -94,16 +94,6 @@ button: hover {
     height: 3em;
 }
 
-.screenshot {
-    -moz-border-radius: 8px;
-    -moz-box-shadow : #ccc 0px 0px 0px;
-    -webkit-box-shadow: #ccc 0px 0px 0px ;
-    box-shadow: #ccc 0px 0px 0px ;
-    border-radius: 8px;
-    width: 270px;
-    height: 480px;
-}
-
 .line {
     display:inline;
     align-items: center;
@@ -115,13 +105,6 @@ button: hover {
     text-align: center;
     vertical-align: middle;
     margin-right: 20px;
-}
-
-.main {
-    background-color: #eee;
-    width: 500px;
-    height: 300px;
-    overflow: auto;
 }
 
 .faq-image {
@@ -176,6 +159,7 @@ button: hover {
 }
 
 .item-table {
+    font-size: inherit;
     border: 0px solid #f0f2f4;
     width: 90%;
 }
@@ -206,6 +190,7 @@ button: hover {
 }
 
 .item ul {
+    font-size: inherit;
     list-style: none;
     list-style-position: inside;
     padding-left: 0px;
@@ -213,6 +198,7 @@ button: hover {
 }
 
 .item li {
+    font-size: inherit;
     color: #454545;
     background: url("images/check.svg") left center no-repeat;
     background-size: 1em;
@@ -221,16 +207,14 @@ button: hover {
 
 .faq {
     display: inline-flex;
-    overflow-x: auto;
-    margin: 30px 0px; 
+    margin: 30px auto; 
     width: 90%;
 }
 
 .version {
-    display: inline-flex;
-    overflow-x: auto;
-    margin: 30px 0px; 
+    font-size: inherit;
     width: 90%;
+    margin: 30px auto;
 }
 
 .image-container {
