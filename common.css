@@ -231,7 +231,7 @@ button: hover {
 .image-container {
   display: inline-flex;
   overflow-x: auto;
-  width: 80%
+  width: 100%
   padding: 20px;
   justify-content: center;
 }
