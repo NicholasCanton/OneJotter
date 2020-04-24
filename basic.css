@@ -1,0 +1,108 @@
+html {
+    background: #fff;
+    color: #111;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    line-height:1.618;
+    font-size: 1vmax;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 { 
+    font-size: 2.4em; 
+}
+
+h2 { 
+    font-size: 2.0em; 
+}
+
+h3 { 
+    font-size: 1.6em; 
+}
+
+h4 { 
+    font-size: 1.4em; 
+}
+
+h5 { 
+    font-size: 1.2em; 
+}
+
+h6 { 
+    font-size: 1.0em; 
+}
+
+p {
+    color: #454545;
+    margin: 2em 0em;
+}
+
+table {
+    color: #111;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid #f0f2f4;
+    width: 100%;
+    font-size: inherit;
+}
+
+table th {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: inherit;
+}
+
+table td {
+    border: 1px solid #f0f2f4;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: inherit;
+}
+
+hr {
+    border: 1px solid #f0f2f4;
+    margin: 0px;
+}
+
+ul {
+   font-size: inherit; 
+   margin: 0px;
+}
+
+ul li {
+    font-size: inherit;
+    margin: 0px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+a:link {
+    color: #54c2f9;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #54c2f9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #54c2f9;
+    text-decoration: none;
+}
+
+a:active {
+    color: #54c2f9;
+    text-decoration: none;
+}
