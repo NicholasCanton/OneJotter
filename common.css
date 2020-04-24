@@ -223,14 +223,14 @@ button: hover {
     display: inline-flex;
     overflow-x: auto;
     margin: 30px 0px; 
-    width: 80%;
+    width: 90%;
 }
 
 .version {
     display: inline-flex;
     overflow-x: auto;
     margin: 30px 0px; 
-    width: 80%;
+    width: 90%;
 }
 
 .image-container {
