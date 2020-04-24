@@ -63,16 +63,6 @@ button: hover {
     color: 454545;
 }
 
-.one {
-    text-align: left; 
-    color: #454545;
-}
-
-.compare {
-    width: 15%;
-    text-align: center; 
-}
-
 .footer {
     background-color: #f0f2f4;
     padding: 30px;
@@ -224,6 +214,18 @@ button: hover {
     font-size: inherit;
     width: 90%;
     margin: 30px auto;
+}
+
+.version-first-column {
+    font-size: inherit;
+    text-align: left; 
+    color: #454545;
+}
+
+.version-compare-column {
+    font-size: inherit;
+    width: 15%;
+    text-align: center; 
 }
 
 .image-container {
