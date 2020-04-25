@@ -3,7 +3,8 @@ html {
     color: #111;
     line-height: 1.618;
     font-size: 14px;
-    font-family: monospace;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -19,51 +20,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
-    font-size: 2.4em; 
+    font-size: 2.4rem; 
 }
 
 h2 { 
-    font-size: 2.0em; 
+    font-size: 2.0rem; 
 }
 
 h3 { 
-    font-size: 1.6em; 
+    font-size: 1.6rem; 
 }
 
 h4 { 
-    font-size: 1.4em; 
+    font-size: 1.4rem; 
 }
 
 h5 { 
-    font-size: 1.2em; 
+    font-size: 1.2rem; 
 }
 
 h6 { 
-    font-size: 1.0em; 
+    font-size: 1.0rem; 
 }
 
 p {
     color: #454545;
-    margin: 1em 0em;
+    margin: 1rem 0rem;
 }
 
 table {
-    font-size: inherit;
-    color: #111;
+    font-size: 1rem; 
     table-layout: fixed;
     border-collapse: collapse;
     border: 1px solid #f0f2f4;
     width: 100%;
+    color: #111;
 }
 
 table th {
-    font-size: inherit;
+    font-size: 1rem; 
     padding: 10px 20px;
     text-align: center;
 }
 
 table td {
-    font-size: inherit;
+    font-size: 1rem; 
     border: 1px solid #f0f2f4;
     padding: 10px 20px;
     text-align: center;
@@ -75,12 +76,12 @@ hr {
 }
 
 ul {
-   font-size: inherit; 
-   margin: 0px;
+    font-size: 1rem; 
+    margin: 0px;
 }
 
 ul li {
-    font-size: inherit;
+    font-size: 1rem; 
     margin: 0px;
 }
 
