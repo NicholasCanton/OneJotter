@@ -10,7 +10,7 @@ html {
 body {
     height: 100%;
     margin: 0px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,6 +44,7 @@ h6 {
 }
 
 p {
+    font-size: 1.0rem; 
     color: #454545;
     margin: 1rem 0rem;
 }
