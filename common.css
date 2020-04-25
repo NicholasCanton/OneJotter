@@ -38,8 +38,7 @@ button: hover {
     text-align: center;
     align-items: center;
     font-weight: bold;
-    font-size: 2.0rem;
-
+    font-size: 1.2rem;
 }
 
 .right {
@@ -213,7 +212,7 @@ button: hover {
 }
 
 .item ul {
-    font-size: inherit;
+    font-size: 1rem;
     list-style: none;
     list-style-position: inside;
     padding-left: 0px;
@@ -222,7 +221,7 @@ button: hover {
 }
 
 .item li {
-    font-size: inherit;
+    font-size: 1rem;
     color: #454545;
     background: url("images/check.svg") left center no-repeat;
     background-size: 1rem;
@@ -231,31 +230,33 @@ button: hover {
 
 .faq {
     display: flex;
-    margin: 30px auto; 
-    width: 90%;
+    margin: 20px auto; 
     justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap
 }
 
 .version {
-    font-size: inherit;
+    font-size: 1rem;
     width: 90%;
     margin: 30px auto;
 }
 
 .version-first-column {
-    font-size: inherit;
+    font-size: 1rem;
     text-align: left; 
     color: #454545;
 }
 
 .version-compare-column {
-    font-size: inherit;
+    font-size: 1rem;
     width: 15%;
     text-align: center; 
 }
 
 .image-container {
-  display: inline-flex;
+  display: flex;
   width: 90%;
   padding: 20px;
   justify-content: center;
@@ -267,9 +268,8 @@ button: hover {
     margin: 10px;
     border-radius: 12px;
     -moz-border-radius: 12px;
-    width: 288px;
-    height: 608px;
-
+    width: 216px;
+    height: 456px;
  }
 
  .flex-description {
@@ -284,8 +284,8 @@ button: hover {
     box-shadow: #ccc 0px 0px 20px;
     border-radius: 12px;
     -moz-border-radius: 12px;
-    width: 288px;
-    height: 608px;
+    width: 216px;
+    height: 456px;
     margin: 0px 30px;
  }
 
