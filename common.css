@@ -125,6 +125,14 @@ button: hover {
     padding: 0px;
 }
 
+.card-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
 .card: hover {
     background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
 }
@@ -133,6 +141,16 @@ button: hover {
     background-color: #f7f7f7;
     background-size: 100%;
     transition: background 0s;
+}
+
+.card span {
+    display: flex;
+    text-align: right;
+    vertical-align: center;
+}
+
+.faq img {
+    margin-right: 10px;
 }
 
 .extension {
@@ -193,7 +211,7 @@ button: hover {
     list-style: none;
     list-style-position: inside;
     padding-left: 0px;
-    margin: 20px 0px 40px 0px;
+    margin: 20px 0px;
 }
 
 .item li {
@@ -205,9 +223,10 @@ button: hover {
 }
 
 .faq {
-    display: inline-flex;
+    display: flex;
     margin: 30px auto; 
     width: 90%;
+    justify-content: center;
 }
 
 .version {
@@ -230,10 +249,10 @@ button: hover {
 
 .image-container {
   display: inline-flex;
-  overflow-x: auto;
-  width: 100%
+  width: 90%;
   padding: 20px;
   justify-content: center;
+  overflow:auto;
 }
 
 .image-container img {
@@ -241,4 +260,7 @@ button: hover {
     margin: 10px;
     border-radius: 12px;
     -moz-border-radius: 12px;
-}
+    width: 180px;
+    height: 390px;
+
+ }

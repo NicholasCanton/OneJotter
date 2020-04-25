@@ -1,14 +1,15 @@
 html {
     background: #fff;
     color: #111;
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
     line-height: 1.618;
-    font-size: 1vmax;
+    font-size: 14px;
+    font-family: monospace;
 }
 
 body {
     height: 100%;
     margin: 0px;
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +44,7 @@ h6 {
 
 p {
     color: #454545;
-    margin: 2em 0em;
+    margin: 1em 0em;
 }
 
 table {
