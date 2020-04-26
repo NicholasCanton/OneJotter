@@ -1,27 +1,27 @@
 html {
-    background: #fff;
-    color: #111;
+    background: #2f323e;
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: 111;
+    color: #fff;
 }
 
 p {
-    color: #454545;
+    color: #c1c2c3;
 }
 
 hr {
-    border: 1px solid #f0f2f4;
+    border: 1px solid #43454c;
 }
 
 table {
-    border: 1px solid #f0f2f4;
-    color: #111;
+    border: 1px solid #43454c;
+    color: #fff;
 }
 
 table td {
-    border: 1px solid #f0f2f4;
+    border: 1px solid #43454c;
 }
 
 button {
@@ -55,7 +55,7 @@ button:hover {
     align-items: center;
     padding: 30px 30px;
     background-image: url("images/clouds.png");
-    background: linear-gradient(#fff, #fff);
+    background: linear-gradient(#2f323e, #2f323e);
     color: 111;
 }
 
@@ -88,11 +88,11 @@ button:hover {
     padding: 0px;
     text-align: right;
     font-size: .6rem;
-    color: 454545;
+    color: c1c2c3;
 }
 
 .footer {
-    background-color: #fbfbfb;
+    background-color: #1e202a;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -100,7 +100,7 @@ button:hover {
 
 .footer p {
     font-size: 1.0rem;
-     margin: 1rem 0rem;
+    margin: 1rem 0rem;
 }
 
 .logo {
@@ -135,21 +135,21 @@ button:hover {
     padding: 20px;
     border-radius: 12px;
     text-align: left;
-    box-shadow: #ccc 0px 0px 20px;
+    box-shadow: #888 0px 0px 20px;
     margin: 20px;
-    background-color: #fff;
+    background-color: #2f323e;
 }
 
 .card-title {
     font-size: 1.2rem; 
-    color: #111;
+    color: #fff;
     padding: 0px 0px 0px 0px;
     white-space: nowrap;
 }
 
 .card-text {
     display: block;
-    color: #454545;
+    color: #fff;
     margin: 16px 0px 0px 0px;
     padding: 0px;
 }
@@ -163,11 +163,11 @@ button:hover {
 }
 
 .card:hover {
-    background: #f0f2f4 radial-gradient(circle, transparent 1%, #f0f2f4 1%) center/15000%;
+    background: #43454c radial-gradient(circle, transparent 1%, #43454c 1%) center/15000%;
 }
 
 .card:active {
-    background-color: #fff;
+    background-color: #2f323e;
     background-size: 100%;
     transition: background 0s;
 }
@@ -212,7 +212,7 @@ button:hover {
 .version-first-column {
     font-size: 1rem;
     text-align: left; 
-    color: #454545;
+    color: #c1c2c3;
 }
 
 .version-compare-column {
@@ -230,7 +230,7 @@ button:hover {
 }
 
 .image-container img {
-    box-shadow: #ccc 0px 0px 20px;
+    box-shadow: #888 0px 0px 20px;
     border-radius: 12px;
     -moz-border-radius: 12px;
     width: 216px;
@@ -265,7 +265,7 @@ button:hover {
 }
 
  .flex-light {
-    background-color: #fff;
+    background-color: #2f323e;
     padding: 60px 30px;
  }
 
@@ -274,7 +274,7 @@ button:hover {
  }
 
  .flex-dark {
-    background-color: #fbfbfb;
+    background-color: #1e202a;
     padding: 60px 30px;
  }
 
