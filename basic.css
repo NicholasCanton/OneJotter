@@ -2,14 +2,14 @@ html {
     -webkit-text-size-adjust: none;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 1vmax;
+    font-size: 18px;
     line-height: 1.618;
 }
 
 body {
     height: 100%;
     margin: 0px;
-    font-size: 1vmax;
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -94,11 +94,11 @@ a:visited {
 }
 
 a:hover {
-    color: #4ab2f2;
+    color: #115ee1;
     text-decoration: none;
 }
 
 a:active {
-    color: #1a90ec;
+    color: #115ee1;
     text-decoration: none;
 }
