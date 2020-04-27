@@ -1,4 +1,5 @@
 html {
+    -webkit-text-size-adjust: none;
     background: #2f323e;
     color: #fff;
 }
