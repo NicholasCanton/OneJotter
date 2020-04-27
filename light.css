@@ -44,8 +44,8 @@ button {
 
 button:hover {
     color: #fff;
-    background: linear-gradient(#4ab2f2, #4ab2f2);
-    border: solid 1px #4ab2f2;
+    background: linear-gradient(#115ee1, #115ee1);
+    border: solid 1px #115ee1;
 }
 
 .container {
@@ -231,6 +231,7 @@ button:hover {
 .feature-item {
     display: flex;
     text-align: left;
+    align-items: center;
     margin: 0px 0px;
 }
 
@@ -306,6 +307,7 @@ button:hover {
  .more {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
  }
 
