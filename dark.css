@@ -145,7 +145,7 @@ button:hover {
 
 .image-container img {
     border: solid 2px #43454c;
-    box-shadow: #666 0px 0px 20px;
+    box-shadow: #666 0px 0px 8px;
     border-radius: 12px;
     -moz-border-radius: 12px;
     width: 216px;
@@ -209,7 +209,7 @@ button:hover {
 
 .flex-description img {
     border: solid 2px #43454c;
-    box-shadow: #666 0px 0px 20px;
+    box-shadow: #666 0px 0px 8px;
     border-radius: 12px;
     -moz-border-radius: 12px;
     width: 216px;
