@@ -117,90 +117,6 @@ button:hover {
     height: 3rem;
 }
 
-.market {
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 20px;
-}
-
-.faq-image {
-    max-width:100% !important; height:auto !important;
-}
-
-.card {
-    padding: 20px;
-    border-radius: 12px;
-    text-align: left;
-    box-shadow: #666 0px 0px 20px;
-    margin: 20px;
-    background-color: #2f323e;
-}
-
-.card-title {
-    font-size: 1.2rem; 
-    color: #fff;
-    padding: 0px 0px 0px 0px;
-    white-space: nowrap;
-}
-
-.card-text {
-    display: block;
-    color: #fff;
-    margin: 16px 0px 0px 0px;
-    padding: 0px;
-}
-
-.card-more {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    vertical-align: middle;
-    margin-top: 10px;
-}
-
-.card:hover {
-    background: #43454c radial-gradient(circle, transparent 1%, #43454c 1%) center/15000%;
-}
-
-.card:active {
-    background-color: #2f323e;
-    background-size: 100%;
-    transition: background 0s;
-}
-
-.card a {
-    font-size: 0.8rem;
-}
-
-.card img {
-    margin-right: 10px;
-}
-
-.card span {
-    display: flex;
-    text-align: right;
-    vertical-align: center;
-}
-
-.extension {
-    margin: 0px 4px;
-    padding: 2px 8px;
-    background: #fff;
-    border: solid 1px #efefef;
-    border-radius: 8px;
-}
-
-.faq {
-    display: flex;
-    margin: 20px auto; 
-    justify-content: center;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
-
 .version {
     font-size: 1rem;
     width: 90%;
@@ -228,13 +144,14 @@ button:hover {
 }
 
 .image-container img {
+    border: solid 2px #43454c;
     box-shadow: #666 0px 0px 20px;
     border-radius: 12px;
     -moz-border-radius: 12px;
     width: 216px;
     height: 456px;
     margin: 10px;
- }
+}
 
 .feature-item {
     display: flex;
@@ -263,62 +180,78 @@ button:hover {
     color: #c1c2c3;
 }
 
- .flex-light {
+.flex-light {
     background-color: #2f323e;
     padding: 60px 30px;
- }
+}
 
- .flex-light p {
+.flex-light p {
     1.0rem;
- }
+}
 
- .flex-dark {
+.flex-dark {
     background-color: #1e202a;
     padding: 60px 30px;
- }
+}
 
- .flex-dark p {
+.flex-dark p {
     1.0rem;
- }
+}
 
- .flex-description {
+.flex-description {
     display: flex;
     justify-content: space-around;
     align-items: center;
     vertical-align: middle;
     justify-content: center;
     padding: 80px 30px;
- }
+}
 
- .flex-description img {
+.flex-description img {
+    border: solid 2px #43454c;
     box-shadow: #666 0px 0px 20px;
     border-radius: 12px;
     -moz-border-radius: 12px;
     width: 216px;
     height: 456px;
     margin: 0px 30px;
- }
 
- .flex-description span {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.flex-description img:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    -o-transform-origin: top center;
+    transform-origin: top center;
+}
+
+.flex-description span {
     margin: 0px 30px;
- }
+}
 
- .flex-description p {
+.flex-description p {
     margin: 0px;
     color: #c1c2c3;
- }
+}
 
- .flex-description button {
+.flex-description button {
     margin: 20px 0px;
- }
+}
 
 .more {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
- }
+}
 
- .more img {
+.more img {
     margin-right: 10px;
- }
+}
