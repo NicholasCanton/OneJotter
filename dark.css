@@ -167,6 +167,8 @@ button:hover {
     background-color: #f0f2f4;
     border-radius: 10px;
     -moz-border-radius: 10px;
+    min-width: 2rem;
+    min-height: 2rem;
     width: 2rem;
     height: 2rem;
     padding: 12px;
