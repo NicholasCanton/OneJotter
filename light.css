@@ -242,7 +242,7 @@ button:hover {
     width: 2rem;
     height: 2rem;
     padding: 12px;
-    margin: 0px 30px;
+    margin-right: 2rem;
 }
 
 .feature-item h3 {
