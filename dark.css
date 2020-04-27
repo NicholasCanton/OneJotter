@@ -9,10 +9,12 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: #c1c2c3;
+    font-size: 1rem;
 }
 
 hr {
     border: 1px solid #43454c;
+    margin: 0px 30px;
 }
 
 table {
@@ -88,7 +90,7 @@ button:hover {
     padding: 0px;
     text-align: right;
     font-size: .6rem;
-    color: c1c2c3;
+    color: #c1c2c3;
 }
 
 .footer {
@@ -172,6 +174,14 @@ button:hover {
     transition: background 0s;
 }
 
+.card a {
+    font-size: 0.8rem;
+}
+
+.card img {
+    margin-right: 10px;
+}
+
 .card span {
     display: flex;
     text-align: right;
@@ -193,14 +203,6 @@ button:hover {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-}
-
-.faq img {
-    margin-right: 10px;
-}
-
-.faq a {
-    font-size: 0.8rem;
 }
 
 .version {
@@ -261,7 +263,7 @@ button:hover {
 
 .feature-item p {
     margin: 4px 0px;
-    color: #909090;
+    color: #c1c2c3;
 }
 
  .flex-light {
@@ -306,6 +308,7 @@ button:hover {
 
  .flex-description p {
     margin: 0px;
+    color: #c1c2c3;
  }
 
  .flex-description button {

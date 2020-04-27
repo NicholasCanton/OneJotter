@@ -85,21 +85,21 @@ ul li:hover {
 }
 
 a:link {
-    color: #54c2f9;
+    color: #1a90ec;
     text-decoration: none;
 }
 
 a:visited {
-    color: #54c2f9;
+    color: #1a90ec;
     text-decoration: none;
 }
 
 a:hover {
-    color: #54c2f9;
+    color: #4ab2f2;
     text-decoration: none;
 }
 
 a:active {
-    color: #54c2f9;
+    color: #1a90ec;
     text-decoration: none;
 }
