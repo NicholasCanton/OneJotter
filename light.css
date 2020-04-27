@@ -96,7 +96,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #fbfbfb;
+    background-color: #fff;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -116,11 +116,6 @@ button:hover {
     -moz-border-radius: 3rem;
     width: 3rem;
     height: 3rem;
-}
-
-.line {
-    display:inline;
-    align-items: center;
 }
 
 .market {
@@ -196,14 +191,6 @@ button:hover {
     background: #fff;
     border: solid 1px #efefef;
     border-radius: 8px;
-}
-
-.faq {
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    padding: 0px 30px;
-    width: 80%;
 }
 
 .version {
@@ -314,5 +301,15 @@ button:hover {
 
  .flex-description button {
     margin: 20px 0px;
+ }
+
+ .more {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+ }
+
+ .more img {
+    margin-right: 10px;
  }
 
