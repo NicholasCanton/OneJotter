@@ -224,9 +224,9 @@ button:hover {
 }
 
 .image-container img {
-    box-shadow: #ccc 0px 0px 20px;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
+    box-shadow: #ccc 0px 0px 16px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
     width: 216px;
     height: 456px;
     margin: 10px;
@@ -286,9 +286,9 @@ button:hover {
  }
 
  .flex-description img {
-    box-shadow: #ccc 0px 0px 20px;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
+    box-shadow: #ccc 0px 0px 16px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
     width: 216px;
     height: 456px;
     margin: 0px 30px;
