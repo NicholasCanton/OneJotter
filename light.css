@@ -216,10 +216,6 @@ button:hover {
     width: 216px;
     height: 456px;
     margin: 0px 30px;
-
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -moz-transition: -moz-transform 0.5s ease;
-    transition: transform 0.5s ease;
 }
 
 .flex-description img:hover {
