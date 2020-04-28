@@ -63,20 +63,21 @@ button:hover {
     color: 111;
 }
 
-.left {
+.logo {
     display: flex;
     align-items: center;
     font-weight: bold;
+    cursor: pointer;
 }
 
-.left p {
+.logo p {
     font-size: 1.4rem;
     margin: 0px;
     padding: 0px;
     color: 111;
 }
 
-.left img {
+.logo img {
     display: block;
     vertical-align: middle;
     align-items: center;
@@ -140,7 +141,7 @@ button:hover {
     text-align: center; 
 }
 
-.image-container {
+.gallery {
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -148,7 +149,7 @@ button:hover {
   margin-top: 40px;
 }
 
-.image-container img {
+.gallery img {
     border: solid 2px #f0f2f4;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
@@ -156,6 +157,24 @@ button:hover {
     width: 216px;
     height: 456px;
     margin: 10px;
+
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.gallery img:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    -o-transform-origin: top center;
+    transform-origin: top center;
 }
 
 .feature-item {
@@ -223,16 +242,19 @@ button:hover {
     height: 456px;
     margin: 0px 30px;
 
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -moz-transition: -moz-transform 0.5s ease;
-    transition: transform 0.5s ease;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 
 .flex-description img:hover {
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    -o-transform: scale(1.25);
-    transform: scale(1.25);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+
     -webkit-transform-origin: top center;
     -moz-transform-origin: top center;
     -o-transform-origin: top center;
@@ -263,3 +285,47 @@ button:hover {
     margin-right: 10px;
 }
 
+
+
+
+
+
+
+
+.purchase {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.purchase-qr {
+    display: block;
+}
+
+.purchase-qr img {
+    border: solid 2px #f0f2f4;
+    box-shadow: #eee 0px 0px 8px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    margin-left: 50px;
+}
+
+.price-list {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111;
+}
+
+.price-list p {
+    margin: 0px;
+}
+
+.price {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #111;
+}
