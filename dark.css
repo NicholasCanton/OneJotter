@@ -248,10 +248,10 @@ button:hover {
     -ms-transform: scale(1.5);
     transform: scale(1.5);
 
-    -webkit-transform-origin: top center;
-    -moz-transform-origin: top center;
-    -o-transform-origin: top center;
-    transform-origin: top center;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center; center;
 }
 
 .flex-description span {
