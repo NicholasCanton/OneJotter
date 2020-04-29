@@ -169,6 +169,22 @@ button:hover {
     transform-origin: center; center;
 }
 
+.gallery-small {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.gallery-large {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 .feature-item {
     display: flex;
     text-align: left;
@@ -230,6 +246,8 @@ button:hover {
     box-shadow: #666 0px 0px 8px;
     border-radius: 12px;
     -moz-border-radius: 12px;
+    min-width: 216px;
+    min-height: 456px;
     width: 216px;
     height: 456px;
     margin: 0px 30px;
@@ -301,6 +319,7 @@ button:hover {
     border-radius: 16px;
     -moz-border-radius: 16px;
     margin-left: 50px;
+    min-width: 240px;
 
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
