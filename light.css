@@ -1,31 +1,31 @@
 html {
     -webkit-text-size-adjust: none;
-    background: #fbfbfb;
+    background: #f4f6f8;
     color: #111;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: 111;
+    color: #111;
 }
 
 p {
-    color: #454545;
     font-size: 1rem;
+    color: #444;
 }
 
 hr {
-    border: 1px solid #f0f2f4;
+    border: 1px solid #e7e8e9;
     margin: 0px 0px;
 }
 
 table {
-    border: 2px solid #f0f2f4;
-    color: #111;
+    border: 2px solid #f4f6f8;
     border-collapse:collapse
+    color: #111;
 }
 
 table td {
-    border: 2px solid #f0f2f4;
+    border: 2px solid #f4f6f8;
 }
 
 button {
@@ -81,7 +81,7 @@ button:hover {
 .logo span {
     margin: 0px;
     padding: 0px;
-    color: #454545;
+    color: #444;
 }
 
 .logo img {
@@ -112,7 +112,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #fbfbfb;
+    background-color: #f4f6f8;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -132,7 +132,7 @@ button:hover {
 .version-first-column {
     font-size: 1rem;
     text-align: left; 
-    color: #454545;
+    color: #444;
 }
 
 .version-compare-column {
@@ -232,16 +232,18 @@ button:hover {
 }
 
 .flex-light p {
-    1.0rem;
+    font-size: 1.0rem;
+    color: #666;
 }
 
 .flex-dark {
-    background-color: #fbfbfb;
+    background-color: #f4f6f8;
     padding: 60px 30px;
 }
 
 .flex-dark p {
-    1.0rem;
+    font-size: 1.0rem;
+    color: #666;
 }
 
 .flex-description {
@@ -319,7 +321,7 @@ button:hover {
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 30px;
 }
 
 .purchase-qr {

@@ -9,8 +9,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: #b8b9c0;
     font-size: 1rem;
+    color: #b8b9c0;
 }
 
 hr {
@@ -230,7 +230,8 @@ button:hover {
 }
 
 .flex-light p {
-    1.0rem;
+    font-size: 1.0rem;
+    color: #b8b9c0;
 }
 
 .flex-dark {
@@ -239,7 +240,8 @@ button:hover {
 }
 
 .flex-dark p {
-    1.0rem;
+    font-size: 1.0rem;
+    color: #b8b9c0;
 }
 
 .flex-description {
@@ -316,7 +318,7 @@ button:hover {
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 30px;
 }
 
 .purchase-qr {
