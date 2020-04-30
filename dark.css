@@ -14,17 +14,17 @@ p {
 }
 
 hr {
-    border: 1px solid #181f37;
+    border: 1px solid #242e52;
     margin: 0px 30px;
 }
 
 table {
-    border: 1px solid #10152a;
+    border: 1px solid #242e52;
     color: #fff;
 }
 
 table td {
-    border: 1px solid #10152a;
+    border: 1px solid #242e52;
 }
 
 button {
@@ -109,7 +109,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #10152a;
+    background-color: #181f37;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -350,9 +350,11 @@ button:hover {
 }
 
 .price-list {
-    margin: 10px;
-    font-size: 1.2rem;
-    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 20px;
 }
 
 .price-list p {
@@ -362,7 +364,7 @@ button:hover {
 
 .price {
     margin: 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #fff;
 }

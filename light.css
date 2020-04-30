@@ -111,7 +111,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #fff;
+    background-color: #fbfbfb;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -353,19 +353,25 @@ button:hover {
 }
 
 .price-list {
-    margin: 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 20px;
 }
 
 .price-list p {
     margin: 0px;
+    color: #999;
+}
+
+.price-line {
+    margin: 10px;
 }
 
 .price {
     margin: 10px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #111;
 }
