@@ -365,6 +365,14 @@ button:hover {
     color: #b8b9c0;
 }
 
+.price-separator {
+    margin: 10px;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
 .price {
     margin: 10px;
     font-size: 1.4rem;
