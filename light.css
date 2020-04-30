@@ -370,10 +370,10 @@ button:hover {
 
 .price-separator {
     margin: 10px;
-    min-width: 20px;
-    min-height: 20px;
-    width: 20px;
-    height: 20px;
+    min-width: 30px;
+    min-height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .price {
