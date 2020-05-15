@@ -39,22 +39,3 @@
 		background-size: 100%;
 		transition: background 0s;
 	}
-
-	.extension {
-		margin: 0px 4px;
-		padding: 2px 8px;
-		background: #fff;
-		border: solid 1px #efefef;
-		border-radius: 8px;
-	}
-
-	.item {
-		display: flex;
-		align-items:center;
-		justify-content: left;
-	}
-
-	.item h1, h2, h3, h4, h5, h6 {
-		margin: 8px 12px;
-	}
-
