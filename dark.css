@@ -117,8 +117,10 @@ button:hover {
 }
 
 .footer p {
-    font-size: 1.0rem;
-    margin: 1rem 0rem;
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
 }
 
 .version {
