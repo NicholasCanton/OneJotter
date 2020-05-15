@@ -125,7 +125,8 @@ button:hover {
 
 .footer p {
     font-size: 0.8rem;
-    margin: 2px;
+    margin: 0px;
+    padding: 0px;
     font-weight: bold;
 }
 
