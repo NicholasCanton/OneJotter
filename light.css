@@ -388,9 +388,9 @@ button:hover {
 }
 
 .card {
-    margin: 0px;
-    padding: 20px 30px;
-    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    background: #f4f6f8;
     border-radius: 8px;
     text-align: left;
 
