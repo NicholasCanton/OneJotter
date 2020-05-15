@@ -1,41 +1,70 @@
-	.faq-image {
-		max-width:100% !important; height:auto !important;
-	}
+html {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+	background: #f4f6f8;
+	color: #111;
+}
 
-	.card {
-		margin: 16px 16px;
-		padding: 16px;
-		background: #fff;
-		border-radius: 8px;
-		text-align: left;
+h1, h2, h3, h4, h5, h6 {
+	color: #111;
+}
 
-		box-shadow: 0 0 0px #c0c0c0;
-		outline: none;
+p {
+	font-size: 1rem;
+	color: #444;
+}
 
-		background-position: center;
-		transition: background 0.8s;
-	}
+hr {
+	border: 1px solid #e7e8e9;
+	margin: 0px 0px;
+}
 
-	.card-title {
-		font-size: 1.1em; 
-		font-weight: bold;
-		color: #272727;
-		padding: 0px 0px 0px 0px;
-	}
-	
-	.card-text {
-		display: block;
-		color: #454545;
-		margin: 16px 0px 0px 0px;
-		padding: 0px;
-	}
 
-	.card: hover {
-		background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
-	}
+.container {
+	padding: 0px 0px;
+	text-align: center;
+}
 
-	.card: active {
-		background-color: #f7f7f7;
-		background-size: 100%;
-		transition: background 0s;
-	}
+.footer {
+	background-color: #f4f6f8;
+	padding: 40px;
+	text-align: center;
+	color: #999;
+}
+
+.card {
+	margin: 16px 16px;
+	padding: 16px;
+	background: #fff;
+	border-radius: 8px;
+	text-align: left;
+
+	box-shadow: 0 0 0px #c0c0c0;
+	outline: none;
+
+	background-position: center;
+	transition: background 0.8s;
+}
+
+.card-title {
+	font-size: 1.1em; 
+	font-weight: bold;
+	color: #272727;
+	padding: 0px 0px 0px 0px;
+}
+
+.card-text {
+	display: block;
+	color: #454545;
+	margin: 16px 0px 0px 0px;
+	padding: 0px;
+}
+
+.card: hover {
+	background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+
+.card: active {
+	background-color: #f7f7f7;
+	background-size: 100%;
+	transition: background 0s;
+}
