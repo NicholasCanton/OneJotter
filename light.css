@@ -24,8 +24,13 @@ table {
     color: #111;
 }
 
+table th {
+    padding: 20px;
+}
+
 table td {
     border: 2px solid #f4f6f8;
+    padding: 16px;
 }
 
 button {
@@ -71,7 +76,7 @@ button:hover {
 }
 
 .logo p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
@@ -125,7 +130,6 @@ button:hover {
 
 .version {
     font-size: 1rem;
-    width: 90%;
     margin: 30px auto;
 }
 
@@ -382,3 +386,41 @@ button:hover {
     font-weight: bold;
     color: #111;
 }
+
+.card {
+        margin: 0px;
+        padding: 30px;
+        background: #fff;
+        border-radius: 8px;
+        text-align: left;
+
+        box-shadow: 0 0 0px #c0c0c0;
+        outline: none;
+
+        background-position: center;
+        transition: background 0.8s;
+    }
+
+    .card-title {
+        font-size: 1.1em; 
+        font-weight: bold;
+        color: #272727;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .card-text {
+        display: block;
+        color: #454545;
+        margin: 16px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .card: hover {
+        background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    }
+
+    .card: active {
+        background-color: #f7f7f7;
+        background-size: 100%;
+        transition: background 0s;
+    }
