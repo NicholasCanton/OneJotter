@@ -3,7 +3,7 @@ html {
 	background: #f4f6f8;
 	color: #111;
 	font-size: 2vmin;
-    	line-height: 1.618;
+    line-height: 1.618;
 }
 
 body {
@@ -70,11 +70,11 @@ hr {
 	padding: 0px;
 }
 
-.card: hover {
-	background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+.card:hover {
+	background: #f4f6f8 radial-gradient(circle, transparent, #f4f6f8);
 }
 
-.card: active {
+.card:active {
 	background-color: #f7f7f7;
 	background-size: 100%;
 	transition: background 0s;
