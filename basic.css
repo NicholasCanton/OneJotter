@@ -1,13 +1,11 @@
 html {
     -webkit-text-size-adjust: none;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 2vmin;
     line-height: 1.618;
 }
 
 body {
-    height: 100%;
     margin: 0px;
     font-size: 2vmin;
 }
