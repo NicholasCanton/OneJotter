@@ -156,12 +156,17 @@ button:hover {
 .gallery {
   display: flex;
   justify-content: center;
-  overflow: hidden;
   padding: 10px;
   margin-top: 40px;
-}
+
+  white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+ }
 
 .gallery img {
+    display: inline-block;
     border: solid 2px #f0f2f4;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
