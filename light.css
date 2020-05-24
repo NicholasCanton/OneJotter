@@ -154,13 +154,11 @@ button:hover {
 }
 
 .gallery {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin-top: 40px;
-  white-space: nowrap;
-  overflow-x: scroll;
-  overflow-y: hidden;
+    width: inherit;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+    margin-top: 40px;
 }
 
 .gallery img {

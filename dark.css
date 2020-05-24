@@ -1,5 +1,4 @@
 html {
-    -webkit-text-size-adjust: none;
     background: #181f37;
     color: #fff;
 }
@@ -50,6 +49,12 @@ button:hover {
 .container {
     padding: 0px 0px;
     text-align: center;
+    background: #10152a;
+}
+
+.content {
+    padding: 30px;
+    text-align: left;
     background: #10152a;
 }
 
@@ -116,6 +121,10 @@ button:hover {
     color: #999;
 }
 
+.footer div {
+    margin: 10px;
+}
+
 .footer p {
     font-size: 0.8rem;
     margin: 2px;
@@ -140,11 +149,11 @@ button:hover {
 }
 
 .gallery {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  padding: 10px;
-  margin-top: 40px;
+    display: fwidth: inherit;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+    margin-top: 40px;
 }
 
 .gallery img {
@@ -152,8 +161,8 @@ button:hover {
     box-shadow: #666 0px 0px 8px;
     border-radius: 12px;
     -moz-border-radius: 12px;
-    min-width: 216px;
-    min-height: 456px;
+    min-width: 108px;
+    min-height: 228px;
     width: 216px;
     height: 456px;
     margin: 8px;
@@ -258,8 +267,8 @@ button:hover {
     box-shadow: #666 0px 0px 8px;
     border-radius: 12px;
     -moz-border-radius: 12px;
-    min-width: 216px;
-    min-height: 456px;
+    min-width: 108px;
+    min-height: 228px;
     width: 216px;
     height: 456px;
     margin: 0px 30px;
