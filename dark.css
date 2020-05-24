@@ -149,11 +149,15 @@ button:hover {
 }
 
 .gallery {
-    display: fwidth: inherit;
+    width: inherit;
     white-space: nowrap;
     overflow-x: auto;
     padding: 10px;
     margin-top: 40px;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
 }
 
 .gallery img {
