@@ -1,5 +1,4 @@
 html {
-    -webkit-text-size-adjust: none;
     background: #f4f6f8;
     color: #111;
 }
@@ -61,6 +60,7 @@ button:hover {
 .content {
     padding: 30px;
     text-align: left;
+    background-color: #fff;
 }
 
 .navigation {
@@ -127,6 +127,10 @@ button:hover {
     color: #999;
 }
 
+.footer div {
+    margin: 10px;
+}
+
 .footer p {
     margin: 8px;
     font-weight: bold;
@@ -162,10 +166,10 @@ button:hover {
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
-    min-width: 270px;
-    min-height: 570px;
-    width: 270px;
-    height: 570px;
+    min-width: 108px;
+    min-height: 228px;
+    width: 216px;
+    height: 456px;
     margin: 8px;
 
     -webkit-transition: all .5s ease-out;
@@ -269,10 +273,10 @@ button:hover {
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
-    min-width: 270px;
-    min-height: 570px;
-    width: 270px;
-    height: 570px;
+    min-width: 108px;
+    min-height: 228px;
+    width: 216px;
+    height: 456px;
     margin: 0px 30px;
 
     -webkit-transition: all .5s ease-out;
