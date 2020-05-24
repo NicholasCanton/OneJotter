@@ -166,8 +166,8 @@ button:hover {
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
-    min-width: 108px;
-    min-height: 228px;
+    max-width: 216px;
+    max-height: 456px;
     width: 216px;
     height: 456px;
     margin: 8px;
@@ -273,8 +273,8 @@ button:hover {
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
-    min-width: 108px;
-    min-height: 228px;
+    max-width: 216px;
+    max-height: 456px;
     width: 216px;
     height: 456px;
     margin: 0px 30px;
