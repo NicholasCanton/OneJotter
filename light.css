@@ -1,6 +1,5 @@
 html {
-    -webkit-text-size-adjust: none;
-    background: #f4f6f8;
+    background: #f2f4f6;
     color: #111;
 }
 
@@ -19,7 +18,7 @@ hr {
 }
 
 table {
-    border: 2px solid #f4f6f8;
+    border: 2px solid #f2f4f6;
     border-collapse:collapse
     color: #111;
 }
@@ -29,7 +28,7 @@ table th {
 }
 
 table td {
-    border: 2px solid #f4f6f8;
+    border: 2px solid #f2f4f6;
     padding: 16px;
 }
 
@@ -116,7 +115,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #f4f6f8;
+    background-color: #f2f4f6;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -159,8 +158,8 @@ button:hover {
     -moz-border-radius: 16px;
     min-width: 216px;
     min-height: 456px;
-    width: 216px;
-    height: 456px;
+    width: 270px;
+    height: 570px;
     margin: 8px;
 
     -webkit-transition: all .5s ease-out;
@@ -240,7 +239,7 @@ button:hover {
 }
 
 .flex-dark {
-    background-color: #f4f6f8;
+    background-color: #f2f4f6;
     padding: 60px 30px;
 }
 
@@ -264,10 +263,10 @@ button:hover {
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
-    min-width: 216px;
-    min-height: 456px;
-    width: 216px;
-    height: 456px;
+    min-width: 270px;
+    min-height: 570px;
+    width: 270px;
+    height: 570px;
     margin: 0px 30px;
 
     -webkit-transition: all .5s ease-out;
