@@ -1,5 +1,5 @@
 html {
-    background: #f2f4f6;
+    background: #f4f6f8;
     color: #111;
 }
 
@@ -13,12 +13,12 @@ p {
 }
 
 hr {
-    border: 1px solid #e7e8e9;
+    border: 1px solid #f4f6f8;
     margin: 0px 0px;
 }
 
 table {
-    border: 2px solid #f2f4f6;
+    border: 2px solid #f4f6f8;
     border-collapse:collapse
     color: #111;
 }
@@ -28,7 +28,7 @@ table th {
 }
 
 table td {
-    border: 2px solid #f2f4f6;
+    border: 2px solid #f4f6f8;
     padding: 16px;
 }
 
@@ -91,7 +91,7 @@ button:hover {
     display: block;
     vertical-align: middle;
     align-items: center;
-    background: #f2f4f6;
+    background: #f4f6f8;
     margin-right: 20px;
     border-radius: 3rem;
     -moz-border-radius: 3rem;
@@ -115,7 +115,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #f2f4f6;
+    background-color: #f4f6f8;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -224,7 +224,7 @@ button:hover {
 }
 
 .feature-item p {
-    margin: 4px 0px;
+    margin: 8px 0px;
     color: #666;
 }
 
@@ -239,7 +239,7 @@ button:hover {
 }
 
 .flex-dark {
-    background-color: #f2f4f6;
+    background-color: #f4f6f8;
     padding: 60px 30px;
 }
 
