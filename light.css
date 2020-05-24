@@ -58,6 +58,11 @@ button:hover {
     text-align: center;
 }
 
+.content {
+    padding: 30px;
+    text-align: left;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
