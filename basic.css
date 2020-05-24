@@ -1,18 +1,15 @@
 @media screen and (min-width: 360px) {
     html {
-        font-size: 16px !important;
     }
 }
  
 @media screen and (min-width: 480px) {
     html {
-        font-size: 18px !important;
     }
 }
  
 @media screen and (min-width: 640px) {
     html {
-        font-size: 20px !important;
     }
 }
 
