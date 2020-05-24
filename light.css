@@ -158,12 +158,10 @@ button:hover {
   justify-content: center;
   padding: 10px;
   margin-top: 40px;
-
-  white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
-overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
- }
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
 
 .gallery img {
     display: inline-block;
