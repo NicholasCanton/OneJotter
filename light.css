@@ -161,6 +161,10 @@ button:hover {
     margin-top: 40px;
 }
 
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
 .gallery img {
     display: inline-block;
     border: solid 2px #f0f2f4;
