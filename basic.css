@@ -1,8 +1,28 @@
+@media only screen and (min-width: 480px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (orientation: landscape) {
+}
+
 html {
     -webkit-text-size-adjust: none;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
     line-height: 1.62;
-    font-size: 20px;
 }
 
 body {
