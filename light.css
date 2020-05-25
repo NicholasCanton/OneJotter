@@ -161,13 +161,12 @@ button:hover {
     overflow-x: auto;
     padding: 10px;
     margin-top: 40px;
+    
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
 }
 
 .gallery::-webkit-scrollbar {
-    display: none;
-}
-
-.gallery::-moz-scrollbar {
     display: none;
 }
 
