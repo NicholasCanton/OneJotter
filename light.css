@@ -154,8 +154,6 @@ button:hover {
 }
 
 .gallery {
-    justify-content: center;
-
     width: inherit;
     white-space: nowrap;
     overflow-x: auto;
