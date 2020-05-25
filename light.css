@@ -154,8 +154,7 @@ button:hover {
 }
 
 .gallery {
-    align-items: center;
-    vertical-align: middle;
+    justify-content: center;
 
     width: inherit;
     white-space: nowrap;
@@ -165,6 +164,10 @@ button:hover {
 }
 
 .gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery::-moz-scrollbar {
     display: none;
 }
 
