@@ -1,5 +1,5 @@
 html {
-    background: #f4f7f9;
+    background: #f5f7f6;
     color: #111;
 }
 
@@ -13,12 +13,12 @@ p {
 }
 
 hr {
-    border: 1px solid #f4f7f9;
+    border: 1px solid #f5f7f6;
     margin: 0px 0px;
 }
 
 table {
-    border: 2px solid #f4f7f9;
+    border: 2px solid #f5f7f6;
     border-collapse:collapse
     color: #111;
 }
@@ -28,7 +28,7 @@ table th {
 }
 
 table td {
-    border: 2px solid #f4f7f9;
+    border: 2px solid #f5f7f6;
     padding: 16px;
 }
 
@@ -97,7 +97,7 @@ button:hover {
     display: block;
     vertical-align: middle;
     align-items: center;
-    background: #f4f7f9;
+    background: #f5f7f6;
     margin-right: 20px;
     border-radius: 3rem;
     -moz-border-radius: 3rem;
@@ -121,7 +121,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #f4f7f9;
+    background-color: #f5f7f6;
     padding: 40px;
     text-align: center;
     color: #999;
@@ -170,7 +170,7 @@ button:hover {
 
 .gallery img {
     display: inline-block;
-    border: solid 2px #f4f7f9;
+    border: solid 2px #f5f7f6;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
@@ -257,7 +257,7 @@ button:hover {
 }
 
 .flex-dark {
-    background-color: #f4f7f9;
+    background-color: #f5f7f6;
     padding: 60px 30px;
 }
 
@@ -276,7 +276,7 @@ button:hover {
 }
 
 .flex-description img {
-    border: solid 2px #f4f7f9;
+    border: solid 2px #f5f7f6;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
@@ -350,7 +350,7 @@ button:hover {
 }
 
 .purchase-qr img {
-    border: solid 2px #f4f7f9;
+    border: solid 2px #f5f7f6;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
