@@ -146,6 +146,10 @@ button:hover {
     margin-right: 4px;
 }
 
+.right a {
+    font-size: 0.7rem;
+}
+
 .download {
     display: block;
     margin: 0px 20px;
