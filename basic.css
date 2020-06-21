@@ -18,7 +18,7 @@
 
 html, body {
     -webkit-text-size-adjust: none !important;
-    font-family: 'Montserrat', Arial, Helvetica, 'Avenir Next', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
 
     line-height: 1.62;
     font-size: 18px !important;
