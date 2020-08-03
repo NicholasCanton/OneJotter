@@ -19,7 +19,7 @@ hr {
 
 table {
     border: 2px solid #f5f7f6;
-    border-collapse:collapse
+    border-collapse:collapse;
     color: #111;
     table-layout:fixed;
 }
