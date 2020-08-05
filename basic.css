@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Lato;
-  src: url("fonts/Lato.ttf");
+  font-family: Sofia;
+  src: url("fonts/sofia.woff2");
 }
 
 @media screen and (min-width: 360px) {
@@ -36,13 +36,13 @@ html, body {
 
 body {
     overflow-x: hidden;
-    font-family: Lato, Arial, Helvetica, sans-serif !important;
+    font-family: Sofia, Arial, Helvetica, sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     padding: 0px;
-    font-family: Lato, Arial, Helvetica, sans-serif !important;
+    font-family: Sofia, Arial, Helvetica, sans-serif !important;
 }
 
 h1 { 
