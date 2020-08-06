@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Avenir;
-  src: url("fonts/AvenirNext.otf");
+  font-family: Sofia;
+  src: url("fonts/Sofia.woff2");
 }
 
 @media screen and (min-width: 360px) {
@@ -23,7 +23,7 @@
 
 html, body {
     -webkit-text-size-adjust: none !important;
-    font-family: Avenir, Arial, Helvetica, sans-serif !important;
+    font-family: Sofia, Arial, Helvetica, sans-serif !important;
 
     line-height: 1.62;
     font-size: 18px !important;
