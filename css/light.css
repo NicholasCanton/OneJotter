@@ -19,9 +19,9 @@ hr {
 
 table {
     border: 2px solid #f5f7f6;
-    border-collapse:collapse;
+    border-collapse: collapse;
     color: #111;
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 table th {
@@ -96,7 +96,6 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px;
-    background-image: url("images/clouds.png");
     background: linear-gradient(#fff, #fff);
     color: 111;
 }
