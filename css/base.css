@@ -112,7 +112,7 @@ ul li:hover {
 
 a {
     -webkit-transition: color .05s ease-in-out;
-    transition:color .05s ease-in-out
+    transition:color .05s ease-in-out;
 }
 
 a:link {
@@ -129,7 +129,7 @@ a:hover {
     color: #1a7dfb;
     text-decoration: none;
     -webkit-transition: color .05s ease-in-out;
-    transition:color .05s ease-in-out
+    transition:color .05s ease-in-out;
 }
 
 a:active {
