@@ -125,10 +125,9 @@ button:hover {
     display: block;
     vertical-align: middle;
     align-items: center;
-    background: #f5f7f6;
     margin-right: 20px;
-    border-radius: 3rem;
-    -moz-border-radius: 3rem;
+    border-radius: 0rem;
+    -moz-border-radius: 0rem;
     width: 4rem;
     height: 4rem;
 }
