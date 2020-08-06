@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Avenir;
-  src: url("../../fonts/AvenirNext.oft");
+  font-family: Lato;
+  src: url("../fonts/Lato.ttf");
 }
 
 @media screen and (min-width: 360px) {
