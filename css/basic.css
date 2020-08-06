@@ -145,10 +145,10 @@ select {
     -moz-border-radius: 4px;
     color: #666;
     outline: none;
-
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    background: none;
 }
 
 select:hover {
