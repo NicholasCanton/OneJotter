@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Sofia;
+  src: url("../fonts/Sofia.woff2");
+}
+
+
+@media screen and (min-width: 360px) {
+    html, body {
+    }
+}
+ 
+@media screen and (min-width: 480px) {
+    html, body {
+    }
+}
+ 
+@media screen and (min-width: 640px) {
+    html, body {
+    }
+}
+
+@media (orientation: landscape) {
+}
+
+html, body {
+    -webkit-text-size-adjust: none !important;
+
+    font-family: Sofia, Arial, Helvetica, sans-serif !important;
+    font-size: 18px !important;
+    line-height: 1.62;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: allow;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 { 
+    font-size: 2.0rem; 
+}
+
+h2 { 
+    font-size: 1.8rem; 
+}
+
+h3 { 
+    font-size: 1.6rem; 
+}
+
+h4 { 
+    font-size: 1.4rem; 
+}
+
+h5 { 
+    font-size: 1.2rem; 
+}
+
+h6 { 
+    font-size: 1.0rem; 
+}
+
+p {
+    color: #454545;
+    margin: 1rem 0rem;
+}
+
+table {
+    font-size: 1rem; 
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    font-size: 1rem; 
+    padding: 10px 20px;
+    text-align: center;
+}
+
+table td {
+    font-size: 1rem; 
+    padding: 10px 20px;
+    text-align: center;
+}
+
+hr {
+    margin: 0px;
+}
+
+ul {
+    font-size: 1rem; 
+    margin: 0px;
+}
+
+ul li {
+    font-size: 1rem; 
+    margin: 0px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+a {
+    -webkit-transition: color .05s ease-in-out;
+    transition:color .05s ease-in-out;
+}
+
+a:link {
+    color: #0061d5;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0f64d2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1a7dfb;
+    text-decoration: none;
+    -webkit-transition: color .05s ease-in-out;
+    transition:color .05s ease-in-out;
+}
+
+a:active {
+    color: #1a7dfb;
+    text-decoration: none;
+}
