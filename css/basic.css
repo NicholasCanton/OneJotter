@@ -149,6 +149,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     background: none;
+    background-color: transparent; 
 }
 
 select:hover {
