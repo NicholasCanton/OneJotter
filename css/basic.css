@@ -137,3 +137,11 @@ a:active {
     color: #1a7dfb;
     text-decoration: none;
 }
+
+select {
+    padding: 4px;
+    color: #999;
+    border: solid 2px #aaa;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+}
