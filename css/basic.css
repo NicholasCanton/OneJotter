@@ -139,17 +139,18 @@ a:active {
 }
 
 select {
-    padding: 4px;
-    border: solid 1px #aaa;
+    padding: 4px 12px;
+    border: solid 2px #eee;
     border-radius: 4px;
     -moz-border-radius: 4px;
     color: #666;
-    cursor: pointer;
-  
-    text-align: center;
-    text-align-last: center;
+    outline: none;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-option {
-  text-align: left;
+select:hover {
+    border: solid 2px #0061d5;
 }
