@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Sofia;
-  src: url("fonts/sofia.woff2");
+  font-family: Avenir;
+  src: url("fonts/AvenirNext.otf");
 }
 
 @media screen and (min-width: 360px) {
@@ -23,6 +23,7 @@
 
 html, body {
     -webkit-text-size-adjust: none !important;
+    font-family: Avenir, Arial, Helvetica, sans-serif !important;
 
     line-height: 1.62;
     font-size: 18px !important;
@@ -36,13 +37,11 @@ html, body {
 
 body {
     overflow-x: hidden;
-    font-family: Sofia, Arial, Helvetica, sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     padding: 0px;
-    font-family: Sofia, Arial, Helvetica, sans-serif !important;
 }
 
 h1 { 
@@ -72,7 +71,6 @@ h6 {
 p {
     color: #454545;
     margin: 1rem 0rem;
-    font-family: Lato, Arial, Helvetica, sans-serif !important;
 }
 
 table {
