@@ -139,8 +139,5 @@ a:active {
 }
 
 select {
-    padding: 4px;
-    border: solid 2px #aaa;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
+    padding: 8px;
 }
