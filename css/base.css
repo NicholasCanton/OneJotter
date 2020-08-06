@@ -1,6 +1,6 @@
 @font-face {
   font-family: Avenir;
-  src: url("../fonts/AvenirNext.oft");
+  src: url("/fonts/AvenirNext.oft");
 }
 
 @media screen and (min-width: 360px) {
