@@ -116,24 +116,24 @@ a {
 }
 
 a:link {
-    color: #0061d5;
+    color: #4e9fe9;
     text-decoration: none;
 }
 
 a:visited {
-    color: #0f64d2;
+    color: #4e9fe9;
     text-decoration: none;
 }
 
 a:hover {
-    color: #1a7dfb;
+    color: #51a4f7;
     text-decoration: none;
     -webkit-transition: color .05s ease-in-out;
     transition:color .05s ease-in-out;
 }
 
 a:active {
-    color: #1a7dfb;
+    color: #51a4f7;
     text-decoration: none;
 }
 
@@ -151,5 +151,5 @@ select {
 }
 
 select:hover {
-    border: solid 2px #0061d5;
+    border: solid 2px #4e9fe9;
 }
