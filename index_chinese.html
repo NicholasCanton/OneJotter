@@ -35,11 +35,7 @@
       </div>
     </div>
     <div class="right">
-      <img src="images/locale.svg" alt="Locale" width="24" height="24" />
-      <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-          <option value="index.html">English</option>
-          <option value="index_chinese.html" selected="selected">中文版</option>
-      </select>
+      <a href="web/index.html">Web Version</a>
     </div>
   </div>
 
@@ -360,6 +356,12 @@
 <div class="footer">
   <div><a href="privacy-chinese.html">隐私政策</a>・<a href="privacy-chinese.html">服务条款</a>・<a href="Mailto:cocoastudio@outlook.com">联系我们</a></div>
   <div>©2018~2020 cocoa studio. 版权所有</div>
+  <div>
+          <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value="index.html">English</option>
+          <option value="index_chinese.html" selected="selected">中文版</option>
+          </select>
+  </div>  
 </div>  
 </body>
 </html>
