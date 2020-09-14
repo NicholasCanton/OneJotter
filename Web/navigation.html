@@ -1,0 +1,76 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/navigation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation-header">
+            <span>One Jotter</span>
+            <img id="synchronization" class="image-button" src="imgs/icon_cloud.svg" />
+        </div>
+
+        <hr>
+
+        <div id="buttonToday" class="navigation-item">
+            <img class="navigation-icon" src="imgs/icon_today.svg" />
+            <span class="navigation-text">Today</span>
+        </div>
+        <div id="buttonAttachments" class="navigation-item">
+            <img class="navigation-icon" src="imgs/icon_attachments.svg" />
+            <span class="navigation-text">Attachments</span>
+        </div>
+        <div id="trash" class="navigation-item">
+            <img class="navigation-icon" src="imgs/icon_trash.svg" />
+            <span class="navigation-text">Trash</span>
+        </div>
+
+        <div class="category">
+            <div class="flex-end">
+                <img id="createCategory" class="image-button" src="imgs/icon_add.svg" />
+            </div>
+
+            <div class="dialog" id="dialogCreateCategory">
+                <h1>Create Category</h1>
+                <input id="name" type="text" />
+
+                <div class="flexRight">
+                    <button id="cancel" class="leftButton">Cancel</button>
+                    <button id="create" class="rightButton">Create</button>
+                </div>
+            </div>
+
+            <div id="categoryContainer">
+                <div id="buttonTags" class="navigation-item">
+                    <img class="navigation-icon" src="imgs/icon_tag.svg" />
+                    <span class="navigation-text">Tags</span>
+                    <img class="navigation-more" src="imgs/icon_menu.svg" />
+                </div>
+                <div id="buttonNotes" class="navigation-item">
+                    <img class="navigation-icon" src="imgs/icon_category.svg" />
+                    <span class="navigation-text">Category</span>
+                    <img class="navigation-more" src="imgs/icon_menu.svg" />
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="buttonSettings" class="navigation-item">
+            <img class="navigation-icon" src="imgs/icon_settings.svg" />
+            <span class="navigation-text">Settings</span>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
