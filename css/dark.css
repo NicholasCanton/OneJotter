@@ -17,16 +17,16 @@ hr {
     margin: 0px 0px;
 }
 
-table {
+.premium_features table {
     border: 1px solid #242e52;
     color: #fff;
 }
 
-table td {
+.premium_features table td {
     border: 1px solid #242e52;
 }
 
-table td:nth-child(1) {
+.premium_features table td:nth-child(1) {
     text-align: left; 
     font-size: 1rem;
     text-align: left; 
@@ -35,20 +35,20 @@ table td:nth-child(1) {
     width: 15%;
 }
 
-table td:nth-child(2) {
+.premium_features table td:nth-child(2) {
     text-align: center; 
 }
 
-table td:nth-child(3) {
+.premium_features table td:nth-child(3) {
     text-align: center; 
 }
 
-table th:nth-child(2) {
+.premium_features table th:nth-child(2) {
   overflow: hidden; 
   width: 14%;
 }
 
-table th:nth-child(3) {
+.premium_features table th:nth-child(3) {
   overflow: hidden; 
   width: 20%;
 }
