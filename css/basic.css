@@ -75,10 +75,6 @@ p {
     margin: 1rem 0rem;
 }
 
-img {
-    width: 80%;
-}
-
 table {
     font-size: 1rem; 
     table-layout: fixed;
@@ -118,7 +114,7 @@ ul li:hover {
 
 a {
     -webkit-transition: color .05s ease-in-out;
-    transition:color .05s ease-in-out;
+    transition: color .05s ease-in-out;
 }
 
 a:link {
@@ -135,7 +131,7 @@ a:hover {
     color: #51a4f7;
     text-decoration: none;
     -webkit-transition: color .05s ease-in-out;
-    transition:color .05s ease-in-out;
+    transition: color .05s ease-in-out;
 }
 
 a:active {
