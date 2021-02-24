@@ -1,207 +1,213 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=0" />  
-	<meta name="description" content="mark, markdown, markup, marked, pad, notepad, notebook, notes, editor, text, textmate, textbundle, textpack" />
-	<meta name="keywords" content="mark, markdown, markup, marked, pad, notepad, notebook, notes, editor, text, textmate, textbundle, textpack" />
-	<meta name="author" content="cocoastudio" />
-	<meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=0" />  
+  <meta name="description" content="mark, markdown, markup, marked, pad, notepad, notebook, notes, editor, text, textmate, textbundle, textpack" />
+  <meta name="keywords" content="mark, markdown, markup, marked, pad, notepad, notebook, notes, editor, text, textmate, textbundle, textpack" />
+  <meta name="author" content="cocoastudio" />
+  <meta name="robots" content="all" />
 
-	<meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1" />
-	<meta http-equiv="content-language" content="zh-cn" />
-	<meta http-equiv="cache-control" content="max-age=0" />
-	<meta http-equiv="cache-control" content="no-cache" />
-	<meta http-equiv="expires" content="0" />
-	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-	<meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1" />
+  <meta http-equiv="content-language" content="zh-cn" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
 
-	<link rel="shortcut icon" href="images/launcher.png" type="image/x-icon" />
-	<link rel="icon" href="images/launcher.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/launcher.png" type="image/x-icon" />
+  <link rel="icon" href="images/launcher.png" type="image/x-icon" />
 
-	<link href="css/basic.css" type="text/css" rel="stylesheet" />
-	<link href="css/light.css" type="text/css" rel="stylesheet" />
-	<link href="css/card.css" type="text/css" rel="stylesheet" />
+  <link href="css/basic.css" type="text/css" rel="stylesheet" />
+  <link href="css/light.css" type="text/css" rel="stylesheet" />
+  <link href="css/card.css" type="text/css" rel="stylesheet" />
 
-	<title>常见问题</title>
+  <title>常见问题</title>
 </head>
 <body>
-	<div class="container">
-		<div class="card">
-			<span class="card-title">我的笔记存储在哪？</span>
-			<span class="card-text">可乐记的数据存储在 SQLite 数据库中，同时会在存储卡 Android/data/com.colanotes.android 文件夹下创建 notes 文件夹，
-
-				以 <strong>.textbundle</strong> 结尾的文件夹就是每一篇笔记的数据信息，在出现极端问题时，可以压缩 notes 文件夹，把压缩后的 <strong>notes.zip</strong> 文件保存到存储卡的 <strong>Download</strong> 文件夹，同时扩展名改为 <strong>.textpack</strong>，也就是 <strong>notes.textpack</strong>，然后打开可乐记，设置，导入与导出，还原备份，在弹出的文件选择器中找到刚刚的备份文件 <strong>notes.textpack</strong> 进行数据恢复。</span>
-			</div>
+  <div class="container">
+    <div class="card">
+      <span class="card-title">无法激活可乐记该如何处理？</span>
+      <span class="card-text">请发送邮件到 cocoastudio@outlook.com 申请重置激活码。</span>
+    </div>
 
 
-			<div class="card">
-				<span class="card-title">可以导出哪些格式？</span>
-				<span class="card-text">目前支持导出为 <strong>TXT</strong>，<strong>PDF</strong>，<strong>JPEG</strong>，<strong>HTML</strong>，<strong>EPUB</strong>，<strong>Markdown</strong>，<strong>Text Pack</strong> 等。</span>
-			</div>
+    <div class="card">
+      <span class="card-title">为什么会出现激活失败？</span>
+      <span class="card-text">有时候网络状况不好或者一个激活码激活了过多的设备会导致发生这样的问题，如果安装了广告拦截应用需要关闭一下，如果还是无法激活可以邮件联络我进行处理。另外，刷机前记得取消激活可乐记。</span>
+    </div>
 
 
-			<div class="card">
-				<span class="card-title">支持哪些数据同步方式？</span>
-				<span class="card-text">可乐记目前支持使用 Google Drive，Microsoft OneDrive 和 WebDAV 技术实现数据同步功能。</span>
-			</div>
+    <div class="card">
+      <span class="card-title">如何购买激活码？</span>
+      <span class="card-text">点击 <a href="purchase.html">购买激活码</a> 了解更多。</span>
+    </div>
 
 
-			<div class="card">
-				<span class="card-title">如何同步数据？</span>
-				<span class="card-text">如果使用 WebDAV 技术来实现数据同步功能的话，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器上创建一个 <strong>Cola</strong> 文件夹，所有数据都存储在这里，同时可以开启自动同步功能（高级版功能），开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。</span>
-			</div>
+    <div class="card">
+      <span class="card-title">我的笔记存储在哪？</span>
+      <span class="card-text">可乐记的数据存储在 SQLite 数据库中，同时会在存储卡 Android/data/com.colanotes.android 文件夹下创建 notes 文件夹，
+
+        以 <strong>.textbundle</strong> 结尾的文件夹就是每一篇笔记的数据信息，在出现极端问题时，可以压缩 notes 文件夹，把压缩后的 <strong>notes.zip</strong> 文件保存到存储卡的 <strong>Download</strong> 文件夹，同时扩展名改为 <strong>.textpack</strong>，也就是 <strong>notes.textpack</strong>，然后打开可乐记，设置，导入与导出，还原备份，在弹出的文件选择器中找到刚刚的备份文件 <strong>notes.textpack</strong> 进行数据恢复。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何设置 WebDAV 服务器？</span>
-				<span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址 <a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a> 或者也可以试试它 <a href="https://teracloud.jp">https://teracloud.jp</a>。
-				</span>
-			</div>
+      <div class="card">
+        <span class="card-title">可以导出哪些格式？</span>
+        <span class="card-text">目前支持导出为 <strong>TXT</strong>，<strong>PDF</strong>，<strong>JPEG</strong>，<strong>HTML</strong>，<strong>EPUB</strong>，<strong>Markdown</strong>，<strong>Text Pack</strong> 等。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何创建标签？</span>
-				<span class="card-text">可乐记采用了自动标签识别技术，在一个字或词的前后加上#，比如（#可乐记#）那么这个词会被自动识别为标签，同时在导航栏标签页下面也会出现这个标签。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">支持哪些数据同步方式？</span>
+        <span class="card-text">可乐记目前支持使用 Google Drive，Microsoft OneDrive 和 WebDAV 技术实现数据同步功能。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何快速高效的创建标签？</span>
-				<span class="card-text">选中一个字或词，使它处于选中状态（背景颜色改变），再按下扩展键盘上的标签键（#），这时标签就迅速创建完成了。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何同步数据？</span>
+        <span class="card-text">如果使用 WebDAV 技术来实现数据同步功能的话，配置好 WebDAV 服务器后打开同步页面，点击页面下方的同步按钮，同步功能就会运行，如果一切顺利会在 WebDAV 服务器上创建一个 <strong>Cola</strong> 文件夹，所有数据都存储在这里，同时可以开启自动同步功能（高级版功能），开启后，每次创建新笔记或者编辑修改之前的笔记都会自动同步到 WebDAV 服务器。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">类别是什么？</span>
-				<span class="card-text">类别是用来分类管理文件夹的，比如：工作，生活，学习等。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何设置 WebDAV 服务器？</span>
+        <span class="card-text">可参照坚果云第三方应用授权 WebDAV 开启方法的文档来操作，文档地址 <a href="http://help.jianguoyun.com">http://help.jianguoyun.com</a> 或者也可以试试它 <a href="https://teracloud.jp">https://teracloud.jp</a>。
+        </span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">类别，文件夹，标签如何进行排序？</span>
-				<span class="card-text">长按拖动进行排序。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何创建标签？</span>
+        <span class="card-text">可乐记采用了自动标签识别技术，在一个字或词的前后加上#，比如（#可乐记#）那么这个词会被自动识别为标签，同时在导航栏标签页下面也会出现这个标签。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何创建一个笔记链接？</span>
-				<span class="card-text">点击扩展键盘上的文档图标，它会弹出笔记的摘要对话框，点击其中一个笔记摘要，就会创建一个笔记链接，点击链接会跳转到链接指向的那篇笔记。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何快速高效的创建标签？</span>
+        <span class="card-text">选中一个字或词，使它处于选中状态（背景颜色改变），再按下扩展键盘上的标签键（#），这时标签就迅速创建完成了。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何调整图片附件，段落的位置？</span>
-				<span class="card-text">让光标停在图片附件或段落的前后或者中间，按下扩展键盘上的上下箭头进行位置调整。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">类别是什么？</span>
+        <span class="card-text">类别是用来分类管理文件夹的，比如：工作，生活，学习等。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何使用指纹解锁？</span>
-				<span class="card-text">首先需要设置一个密码，再开启指纹，防止指纹失效后无法打开可乐记。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">类别，文件夹，标签如何进行排序？</span>
+        <span class="card-text">长按拖动进行排序。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何调整编辑器的行距与字号？</span>
-				<span class="card-text">设置，通用，编辑器，在编辑器页面调整行距，字号等。另外可乐记提供了一个编辑锁，用来防止误删，误触，可以在这里进行开启或关闭。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何创建一个笔记链接？</span>
+        <span class="card-text">点击扩展键盘上的文档图标，它会弹出笔记的摘要对话框，点击其中一个笔记摘要，就会创建一个笔记链接，点击链接会跳转到链接指向的那篇笔记。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">编辑器菜单中的预览转换是什么？</span>
-				<span class="card-text">预览转换是一个在富媒体与 Markdown 文本之间进行自由转换的功能。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何调整图片附件，段落的位置？</span>
+        <span class="card-text">让光标停在图片附件或段落的前后或者中间，按下扩展键盘上的上下箭头进行位置调整。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何一次添加多张图片或文件？</span>
-				<span class="card-text">可乐记支持单次添加多张图片（高级版功能），如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。比如：<strong>果仁相册</strong>，非常好的相册管理应用，我们开发的过程中选择图片进行富媒体测试时都使用它，加载速度很快，可以试试它。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何使用指纹解锁？</span>
+        <span class="card-text">首先需要设置一个密码，再开启指纹，防止指纹失效后无法打开可乐记。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">为什么无法添加图片及文件？</span>
-				<span class="card-text">这个和使用的文件选择器有关，如果发现这个状况请更换一个文件选择器试试。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何调整编辑器的行距与字号？</span>
+        <span class="card-text">设置，通用，编辑器，在编辑器页面调整行距，字号等。另外可乐记提供了一个编辑锁，用来防止误删，误触，可以在这里进行开启或关闭。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何备份笔记内容？</span>
-				<span class="card-text">设置，导入与导出，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 文件夹。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">编辑器菜单中的预览转换是什么？</span>
+        <span class="card-text">预览转换是一个在富媒体与 Markdown 文本之间进行自由转换的功能。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">可以导入其他应用的数据吗？</span>
-				<span class="card-text">当然可以，可乐记支持导入 Day One，Journey，Bear（熊掌记）等应用的数据。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何一次添加多张图片或文件？</span>
+        <span class="card-text">可乐记支持单次添加多张图片（高级版功能），如果发现无法单次添加多张图片，多半是因为图片浏览器不支持多选，请更换支持多选的图片浏览器试试。比如：<strong>果仁相册</strong>，非常好的相册管理应用，我们开发的过程中选择图片进行富媒体测试时都使用它，加载速度很快，可以试试它。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何导入 Day One 的数据？</span>
-				<span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的文件夹中，然后打开可乐记，设置，导入与导出，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">为什么无法添加图片及文件？</span>
+        <span class="card-text">这个和使用的文件选择器有关，如果发现这个状况请更换一个文件选择器试试。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何导入 Bear（熊掌记）的数据？</span>
-				<span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的文件夹中，然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何备份笔记内容？</span>
+        <span class="card-text">设置，导入与导出，点击现在备份，会创建一份内容副本在存储卡下的 <strong>Download</strong> 文件夹。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何导入 Bear（熊掌记）的单篇笔记？</span>
-				<span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a> 格式，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，再把文件扩展名改为 <strong>.textpack</strong> 然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">可以导入其他应用的数据吗？</span>
+        <span class="card-text">当然可以，可乐记支持导入 Day One，Journey，Bear（熊掌记）等应用的数据。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何导入 Ulysses 的数据？</span>
-				<span class="card-text">选择导出 Ulysses 笔记为 <strong>Text Pack</strong>，然后打开可乐记，设置，导入与导出，导入，选择 <strong>Text Pack</strong>，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何导入 Day One 的数据？</span>
+        <span class="card-text">打开 Day One 的设置页面，然后找到导入和导出，然后选择导出为 JSON 格式，通常情况会生成一个 <strong>.zip</strong> 文件，把这个文件保存到一个可乐记可访问的文件夹中，然后打开可乐记，设置，导入与导出，导入，选择 Day One，在弹出的文件选择器中找到刚刚备份的文件<strong>（.zip）</strong>，点击，可乐记就会把数据导入进来。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何与其他应用交换数据？</span>
-				<span class="card-text">可以利用云盘在可乐记，Bear，Ulysses 之间进行数据交换，可乐记支持从云盘直接导入数据。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何导入 Bear（熊掌记）的数据？</span>
+        <span class="card-text">备份 Bear（熊掌记）笔记，通常会是一个 <strong>.bearbk</strong> 文件，保存到一个可乐记可以访问到的文件夹中，然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.bearbk）</strong>，点击，可乐记就会把数据导入进来。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何从云盘导入数据？</span>
-				<span class="card-text">设置，数据，云盘，点击配置好的云盘，打开云盘后长按想导入的数据，在弹出的上下文菜单中选择导入，目前支持导入 <strong>Text</strong>，<strong>Markdown</strong>，<strong>Text Pack</strong> 等格式的数据。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何导入 Bear（熊掌记）的单篇笔记？</span>
+        <span class="card-text">选择导出 Bear（熊掌记）的笔记为 <a href="http://textbundle.org/">Text Bundle</a> 格式，需要把这个路径扩展名为 <strong>.textbundle</strong> 的文件夹压缩成 <strong>.zip</strong> 文件，再把文件扩展名改为 <strong>.textpack</strong> 然后打开可乐记，设置，导入与导出，导入，选择熊掌记，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">为什么会出现激活失败？</span>
-				<span class="card-text">有时候网络状况不好或者一个激活码激活了过多的设备会导致发生这样的问题，如果安装了广告拦截应用需要关闭一下，如果还是无法激活可以邮件联络我进行处理。另外，刷机前记得取消激活可乐记。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何导入 Ulysses 的数据？</span>
+        <span class="card-text">选择导出 Ulysses 笔记为 <strong>Text Pack</strong>，然后打开可乐记，设置，导入与导出，导入，选择 <strong>Text Pack</strong>，在弹出的文件选择器中找到刚刚的备份文件<strong>（.textpack）</strong>，点击，可乐记就会把数据导入进来。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">Markdown 标准语法复杂吗？</span>
-				<span class="card-text">特别简单，下面的链接是关于 Markdown 的简易教程，<br><a href="https://commonmark.org/help/">https://commonmark.org/help/</a>。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何与其他应用交换数据？</span>
+        <span class="card-text">可以利用云盘在可乐记，Bear，Ulysses 之间进行数据交换，可乐记支持从云盘直接导入数据。</span>
+      </div>
 
 
-			<div class="card">
-				<span class="card-title">如何购买激活码？</span>
-				<span class="card-text">点击 <a href="purchase.html">购买激活码</a> 了解更多。</span>
-			</div>
+      <div class="card">
+        <span class="card-title">如何从云盘导入数据？</span>
+        <span class="card-text">设置，数据，云盘，点击配置好的云盘，打开云盘后长按想导入的数据，在弹出的上下文菜单中选择导入，目前支持导入 <strong>Text</strong>，<strong>Markdown</strong>，<strong>Text Pack</strong> 等格式的数据。</span>
+      </div>
 
-		
-			<div class="card">
-				<span class="card-title">需要更多帮助？</span>
-				<span class="card-text">发送邮件到 <a href="Mailto:cocoastudio@outlook.com">cocoastudio@outlook.com</a> 获取更多或者访问 <a href="https://colanotes.com">colanotes.com</a> 了解更多。</span>
-			</div>
-		</div>
 
-		<br />
-		<br />
+      <div class="card">
+        <span class="card-title">Markdown 标准语法复杂吗？</span>
+        <span class="card-text">特别简单，下面的链接是关于 Markdown 的简易教程，<br><a href="https://commonmark.org/help/">https://commonmark.org/help/</a>。</span>
+      </div>
 
-		<div class="footer">
-			<div>©2018~2020 cocoa studio. 版权所有</div>
-		</div>  
-	</body>
-	</html>
+      
+      <div class="card">
+        <span class="card-title">需要更多帮助？</span>
+        <span class="card-text">发送邮件到 <a href="Mailto:cocoastudio@outlook.com">cocoastudio@outlook.com</a> 获取更多或者访问 <a href="https://colanotes.com">colanotes.com</a> 了解更多。</span>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="footer">
+      <div>©2018~2020 cocoa studio. 版权所有</div>
+    </div>  
+  </body>
+  </html>
