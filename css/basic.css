@@ -92,6 +92,8 @@ table td {
     font-size: 1rem; 
     padding: 10px 20px;
     text-align: center;
+    white-space: wrap;
+    word-wrap: break-word;
 }
 
 hr {
