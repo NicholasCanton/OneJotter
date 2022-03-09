@@ -65,8 +65,53 @@
                 <li>根据法律的有关规定或者行政或司法机构的要求，向第三方或者行政、司法机构披露。</li>
             </ul>
             
-            
-             </br>
+            </br>
+        
+             <h5>使用权限说明</h5>
+             <h6>支持使用生物识别解锁应用。</h6>
+             <p>
+             <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+             <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+             </p>    
+                 
+             <h6>获取网络状态进行数据同步操作。</h6>
+             <p>
+             <uses-permission android:name="android.permission.INTERNET" />
+             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+             <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+             </p>
+
+
+             <h6>支持用户选择照片，视频等文件作为笔记附件存储及同步。</h6>
+             <p>
+             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+             </p>
+
+
+             <h6>支持用户拍照，录像，录音等作为笔记附件存储及同步。</h6>
+                    <p>
+            <uses-permission android:name="android.permission.CAMERA" />
+            <uses-permission android:name="android.permission.RECORD_AUDIO" />
+                    </p>
+
+            <h6>支持应用常驻通知栏创建快速笔记。</h6>
+            <p>
+            <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+            </p
+
+            <h6>给出用户操作后的反馈提示。</h6>
+            <p>
+            <uses-permission android:name="android.permission.VIBRATE" />
+            </p
+
+            <h6>支持保存笔记附件到下载目录。</h6>
+            <p>
+            <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+            </p>
+
+            </br>
             <h5>涉及收集您的信息的第三方 SDK 服务</h5>
             <p>我们无法控制第三方 SDK 的隐私和数据保护政策，以下第三方 SDK 不受此隐私政策的约束；您在向以下第三方 SDK 提交个人信息之前，请了解这些第三方 SDK 的隐私政策。</p>
             <table class="privacy">
