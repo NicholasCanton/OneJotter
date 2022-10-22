@@ -13,7 +13,8 @@ p {
 }
 
 hr {
-    border: 1px solid #f5f7f6;
+    border: 0;
+    border-top: 1px dotted #f5f7f6;
     margin: 0px 0px;
 }
 
