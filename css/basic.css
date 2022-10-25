@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Roboto;
-  src: url("../fonts/Roboto.ttf");
+  font-family: Gilroy;
+  src: url("../fonts/Gilroy.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,7 +26,7 @@
 html, body {
     -webkit-text-size-adjust: none !important;
 
-    font-family: Roboto, Arial, Helvetica, sans-serif !important;
+    font-family: Gilroy, Arial, Helvetica, sans-serif !important;
     font-size: 18px !important;
     line-height: 1.62;
 
