@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Gotham;
-  src: url("../fonts/Gotham.otf");
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,7 +26,7 @@
 html, body {
     -webkit-text-size-adjust: none !important;
 
-    font-family: Gotham, Arial, Helvetica, sans-serif !important;
+    font-family: Roboto, Arial, Helvetica, sans-serif !important;
     font-size: 18px !important;
     line-height: 1.62;
 
