@@ -445,7 +445,7 @@ button:hover {
     border-radius: 16px;
     -moz-border-radius: 16px;
     margin-left: 50px;
-    min-width: 240px;
+    min-width: 120px;
 
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
