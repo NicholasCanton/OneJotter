@@ -1,7 +1,7 @@
 html, body {
     -webkit-text-size-adjust: none !important;
 
-    font-family: Gilroy, Arial, Helvetica, sans-serif !important;
+    font-family: unset !important;
     font-size: 14px !important;
     line-height: 1.62;
 
