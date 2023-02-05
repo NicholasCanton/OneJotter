@@ -19,7 +19,7 @@ hr {
 }
 
 .premium_features table {
-    border: 2px solid #f5f7f6;
+    border: 2px solid #f3f3f3;
     border-collapse: collapse;
     color: #111;
     table-layout: fixed;
@@ -30,7 +30,7 @@ hr {
 }
 
 .premium_features table td {
-    border: 2px solid #f5f7f6;
+    border: 2px solid #f3f3f3;
     padding: 16px;
 }
 
@@ -189,7 +189,7 @@ button:hover {
 
 .gallery img {
     display: inline-block;
-    border: solid 2px #f5f7f6;
+    border: solid 2px #f3f3f3;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
@@ -276,7 +276,7 @@ button:hover {
 }
 
 .flex-dark {
-    background-color: #f5f7f6;
+    background-color: #f3f3f3;
     padding: 60px 30px;
 }
 
@@ -295,7 +295,7 @@ button:hover {
 }
 
 .flex-description img {
-    border: solid 2px #f5f7f6;
+    border: solid 2px #f3f3f3;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
@@ -438,7 +438,6 @@ button:hover {
     -o-transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
-
 
 .pay img:hover {
     -moz-transform: scale(1.25);
