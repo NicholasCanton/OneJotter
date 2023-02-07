@@ -22,6 +22,14 @@ html, body {
 }
 
 .price-card {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+    border-radius: 8px;
+    margin: 20px 20px;
+    padding: 0px 0px 30px 0px;
+}
+
+.price-card-column {
     width: 50%;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
