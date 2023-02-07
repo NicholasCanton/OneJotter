@@ -450,7 +450,6 @@ button:hover {
     transition: all .5s ease-out;
 }
 
-
 .pay img:hover {
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
