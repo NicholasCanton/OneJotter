@@ -19,7 +19,7 @@ hr {
 }
 
 .premium_features table {
-    border: 2px solid #f3f3f3;
+    border: 2px solid #f5f7f6;
     border-collapse: collapse;
     color: #111;
     table-layout: fixed;
@@ -30,7 +30,7 @@ hr {
 }
 
 .premium_features table td {
-    border: 2px solid #f3f3f3;
+    border: 2px solid #f5f7f6;
     padding: 16px;
 }
 
@@ -155,7 +155,7 @@ button:hover {
     background-color: #f3f3f3;
     padding: 40px;
     text-align: center;
-    color: #888;
+    color: #777;
 }
 
 .footer div {
@@ -189,7 +189,7 @@ button:hover {
 
 .gallery img {
     display: inline-block;
-    border: solid 2px #f3f3f3;
+    border: solid 2px #f5f7f6;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
@@ -276,7 +276,7 @@ button:hover {
 }
 
 .flex-dark {
-    background-color: #f3f3f3;
+    background-color: #f5f7f6;
     padding: 60px 30px;
 }
 
@@ -295,7 +295,7 @@ button:hover {
 }
 
 .flex-description img {
-    border: solid 2px #f3f3f3;
+    border: solid 2px #f5f7f6;
     box-shadow: #eee 0px 0px 8px;
     border-radius: 16px;
     -moz-border-radius: 16px;
@@ -428,6 +428,17 @@ button:hover {
     background-color: #fff;
 }
 
+
+.privacy table {
+    width: 100%; 
+    text-align: center; 
+    border-collapse: collapse;  
+}
+
+.privacy table tr th, table tr td {
+    border: 2px solid #ddd;
+}
+
 .pay img {
     background-color: #f5f5f5;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
@@ -439,17 +450,27 @@ button:hover {
     transition: all .5s ease-out;
 }
 
+
 .pay img:hover {
-    -moz-transform: scale(1.25);
-    -webkit-transform: scale(1.25);
-    -o-transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    transform: scale(1.25);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
 
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
     -o-transform-origin: center center;
     transform-origin: center center;
+}
+
+.price-card {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+    border-radius: 8px;
+
+    margin: 20px 0px;
+    display:inline-block;
 }
 
 .price-list {
@@ -471,28 +492,4 @@ button:hover {
     min-height: 30px;
     width: 30px;
     height: 30px;
-}
-
-.price {
-    margin: 10px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #111;
-}
-
-.price-card {
-    border-radius: 8px;
-    border: 2px solid #e5e7e6;
-    padding: 30px 20px 10px 20px;
-    margin: 20px 0px;
-}
-
-.privacy table {
-    width: 100%; 
-    text-align: center; 
-    border-collapse: collapse;  
-}
-
-.privacy table tr th, table tr td {
-    border: 2px solid #ddd;
 }
