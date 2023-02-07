@@ -2,7 +2,7 @@ html, body {
     -webkit-text-size-adjust: none !important;
 
     font-family: unset !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 1.62;
 
     -webkit-font-smoothing: antialiased;
@@ -10,6 +10,61 @@ html, body {
 
     margin: 0rem;
     padding: 0rem;
+}
+
+.container {
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.price-content {
+    display: flex;
+}
+
+.price-card {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+    border-radius: 8px;
+    margin: 20px 20px;
+    padding: 0px 0px 30px 0px;
+}
+
+.price-left {
+    background-color: #07c160;
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.price-right {
+    background-color: #1678ff;
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.price-text {
+    color: #fff;
+    opacity: 0.75;
+}
+
+.price {
+    font-size: 1.4rem; 
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    opacity: 0.95;
+}
+
+.price-symbol {
+    font-size: 1.6rem; 
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    opacity: 0.95;
 }
 
 .membership-description {
@@ -20,16 +75,24 @@ html, body {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
     border-radius: 8px;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 30px;
     margin: 20px 20px;
 }
 
-.membership-system {
+.membership-card-caption {
+    font-size: 0.8rem; 
+    font-weight: bold;
+    color: #444;
+}
+
+.membership-os {
     background-color: #fff;
     border-radius: 4px;
     padding-right: 4px;
+    font-size: 0.8rem; 
+    font-weight: bold;
 }
 
-.membership-system img {
+.membership-os img {
     padding: 0px 4px;
 }
