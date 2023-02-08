@@ -12,6 +12,14 @@ html, body {
     padding: 0rem;
 }
 
+.account {
+    color: #2aa3ef;
+}
+
+.caption {
+    font-size: 0.6rem; 
+}
+
 .membership-container {
     padding: 0px 200px;
     text-align: center;
@@ -22,16 +30,6 @@ html, body {
 }
 
 .price-card {
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
-    border-radius: 8px;
-    margin: 20px 20px;
-    padding: 0px 0px 30px 0px;
-}
-
-.price-card-column {
-    width: 50%;
-    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
     border-radius: 8px;
     margin: 20px 20px;
@@ -42,14 +40,14 @@ html, body {
     background-color: #07c160;
     border-radius: 8px 8px 0px 0px;
     padding: 20px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
 }
 
 .price-right {
     background-color: #1678ff;
     border-radius: 8px 8px 0px 0px;
     padding: 20px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
 }
 
 .price-text {
@@ -75,6 +73,19 @@ html, body {
     opacity: 0.95;
 }
 
+.price-card-subtitle {
+    font-size: 1.0rem; 
+    padding: 0px 50px;
+    color: #444;
+}
+
+.price-card-caption {
+    font-size: 0.8rem; 
+    font-weight: bold;
+    padding: 0 50px;
+    color: #444;
+}
+
 .membership-description {
     margin: 40px 20px;
 }
@@ -87,21 +98,14 @@ html, body {
     margin: 20px 20px;
 }
 
-.membership-card-caption {
-    font-size: 0.8rem; 
-    font-weight: bold;
-    color: #444;
-    padding: 0 50px;
-}
-
-.membership-os {
-    background-color: #fff;
+.os {
+    background-color: #f3f3f3;
     border-radius: 4px;
     padding-right: 4px;
     font-size: 0.8rem; 
     font-weight: bold;
 }
 
-.membership-os img {
+.os img {
     padding: 0px 4px;
 }
