@@ -20,11 +20,6 @@ html, body {
     font-size: 0.6rem; 
 }
 
-.membership-container {
-    padding: 0px 200px;
-    text-align: center;
-}
-
 .price-content {
     display: flex;
 }
@@ -33,7 +28,7 @@ html, body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
     border-radius: 8px;
     margin: 20px 20px;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .price-left {
@@ -75,7 +70,7 @@ html, body {
 
 .price-card-subtitle {
     font-size: 1.0rem; 
-    padding: 0px 50px;
+    padding: 0px 40px;
     color: #444;
 }
 
