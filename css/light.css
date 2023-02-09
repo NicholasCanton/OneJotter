@@ -451,11 +451,11 @@ button:hover {
 }
 
 .pay img:hover {
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
+    -moz-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
 
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
