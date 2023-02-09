@@ -10,14 +10,48 @@ html, body {
 
     margin: 0rem;
     padding: 0rem;
+    color: #131313;
+}
+
+p {
+    margin: 0rem 0rem;
+}
+
+.header {
+    padding: 30px;   
+    background:linear-gradient(#feda7f, #ffffff);
+}
+
+.title {
+    font-size: 1.4rem; 
+    font-weight: bold;
+    color: #131313;
+}
+
+.subtitle {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    color: #0072a7;
+}
+
+.caption {
+    font-size: 0.85rem; 
+
+}
+
+.link-button {
+    font-size: 0.8rem; 
+    padding: 4px 4px;
+    color: #0072a7;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    color: #00000;
 }
 
 .account {
     color: #2aa3ef;
-}
-
-.caption {
-    font-size: 0.6rem; 
 }
 
 .price-content {
@@ -32,14 +66,14 @@ html, body {
 }
 
 .price-left {
-    background-color: #07c160;
+    background:linear-gradient(#07c160, #32cc7c);
     border-radius: 8px 8px 0px 0px;
     padding: 20px;
     margin: 0px 0px 30px 0px;
 }
 
 .price-right {
-    background-color: #1678ff;
+    background:linear-gradient(#1678ff, #519aff);
     border-radius: 8px 8px 0px 0px;
     padding: 20px;
     margin: 0px 0px 30px 0px;
