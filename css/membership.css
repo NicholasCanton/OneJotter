@@ -70,7 +70,7 @@ html, body {
 
 .price-card-subtitle {
     font-size: 1.0rem; 
-    padding: 0px 40px;
+    padding: 0px 40px 8px 40px;
     color: #444;
 }
 
