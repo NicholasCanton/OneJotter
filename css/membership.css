@@ -18,7 +18,7 @@ p {
 }
 
 .header {
-    padding: 30px;   
+    padding: 60px 30px 10px 30px;   
     background:linear-gradient(#feda7f, #ffffff);
 }
 
@@ -144,7 +144,7 @@ p {
     border-radius: 8px;
     background:linear-gradient(#f9f9f2, #ffffff);
     padding: 40px 30px;
-    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     word-wrap: break-word;
 }
 
