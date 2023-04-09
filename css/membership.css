@@ -144,7 +144,7 @@ p {
     border-radius: 8px;
     background:linear-gradient(#f9f9f2, #ffffff);
     padding: 40px 40px;
-    margin: 30px 40px 0px 40px;
-    
+    margin: 30px 20px 0px 20px;
+    word-wrap: break-word;
 }
 
