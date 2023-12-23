@@ -485,6 +485,47 @@ button:hover {
     color: #999;
 }
 
+.price-list table {
+    border: 1px solid #f5f7f6;
+    border-collapse: collapse;
+    color: #111;
+    table-layout: fixed;
+}
+
+.price-list table th {
+    padding: 12px 4px;
+}
+
+.price-list table td:nth-child(1) {
+    text-align: left; 
+    font-size: 1rem;
+    text-align: center; 
+    color: #222;
+}
+
+.price-list table td:nth-child(2) {
+    text-align: center; 
+}
+
+.price-list table td:nth-child(3) {
+    text-align: center; 
+}
+
+.price-list table th:nth-child(1) {
+  overflow: hidden; 
+  width: 20%;
+}
+
+.price-list table th:nth-child(3) {
+  overflow: hidden; 
+  width: 40%;
+}
+
+.price-list table th:nth-child(3) {
+  overflow: hidden; 
+  width: 40%;
+}
+
 .price-separator {
     margin: 10px;
     min-width: 30px;
