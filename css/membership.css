@@ -72,6 +72,13 @@ p {
     margin: 0px 0px 30px 0px;
 }
 
+.price-middle {
+    background:linear-gradient(#f0ac01, #f8c834);
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
 .price-right {
     background:linear-gradient(#1678ff, #519aff);
     border-radius: 8px 8px 0px 0px;
