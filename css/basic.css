@@ -1,159 +1,150 @@
 @font-face {
-  font-family: Gilroy;
-  src: url("../fonts/Gilroy.ttf");
-  font-weight: normal;
-  font-style: normal;
+        font-family: Lato;
+        src: url("../fonts/Lato.ttf");
+        font-weight: normal;
+        font-style: normal;
 }
 
-@media screen and (min-width: 360px) {
-    html, body {
-    }
-}
- 
-@media screen and (min-width: 480px) {
-    html, body {
-    }
-}
- 
-@media screen and (min-width: 640px) {
-    html, body {
-    }
-}
+html,
+body {
+        -webkit-text-size-adjust: none !important;
 
-@media (orientation: landscape) {
-}
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+                Lato, Avenir, "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+                "Droid Sans", "Helvetica Neue", Georgia, Verdana, Arial,
+                sans-serif !important;
+        font-size: 16px !important;
+        line-height: 1.62;
 
-html, body {
-    -webkit-text-size-adjust: none !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: allow;
 
-    font-family: Gilroy, Arial, Helvetica, sans-serif !important;
-    font-size: 16px !important;
-    line-height: 1.62;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: allow;
-
-    margin: 0rem;
-    padding: 0rem;
+        margin: 0rem;
+        padding: 0rem;
 }
 
 body {
-    overflow-x: hidden;
+        overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0rem;
-    padding: 0rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        margin: 0rem;
+        padding: 0rem;
 }
 
-h1 { 
-    font-size: 2.0rem; 
+h1 {
+        font-size: 2rem;
 }
 
-h2 { 
-    font-size: 1.8rem; 
+h2 {
+        font-size: 1.8rem;
 }
 
-h3 { 
-    font-size: 1.6rem; 
+h3 {
+        font-size: 1.6rem;
 }
 
-h4 { 
-    font-size: 1.4rem; 
+h4 {
+        font-size: 1.4rem;
 }
 
-h5 { 
-    font-size: 1.2rem; 
+h5 {
+        font-size: 1.2rem;
 }
 
-h6 { 
-    font-size: 1.0rem; 
+h6 {
+        font-size: 1rem;
 }
 
 p {
-    color: #454545;
-    margin: 1rem 0rem;
+        color: #454545;
+        margin: 1rem 0rem;
 }
 
 table {
-    font-size: 1rem; 
-    table-layout: fixed;
-    border-collapse: collapse;
-    width: 100%;
+        font-size: 1rem;
+        table-layout: fixed;
+        border-collapse: collapse;
+        width: 100%;
 }
 
 table th {
-    font-size: 1rem; 
-    padding: 10px 20px;
-    text-align: center;
+        font-size: 1rem;
+        padding: 10px 20px;
+        text-align: center;
 }
 
 table td {
-    font-size: 1rem; 
-    padding: 10px 20px;
-    text-align: center;
-    white-space: wrap;
-    word-wrap: break-word;
+        font-size: 1rem;
+        padding: 10px 20px;
+        text-align: center;
+        white-space: wrap;
+        word-wrap: break-word;
 }
 
 hr {
-    margin: 0rem;
+        margin: 0rem;
 }
 
 ul {
-    font-size: 1rem; 
-    margin: 1rem 0rem;
+        font-size: 1rem;
+        margin: 1rem 0rem;
 }
 
 ul li {
-    font-size: 1rem; 
-    margin: 1rem 0rem;
+        font-size: 1rem;
+        margin: 1rem 0rem;
 }
 
 ul li:hover {
-    cursor: pointer;
+        cursor: pointer;
 }
 
 a {
-    -webkit-transition: color .05s ease-in-out;
-    transition: color .05s ease-in-out;
+        -webkit-transition: color 0.05s ease-in-out;
+        transition: color 0.05s ease-in-out;
 }
 
 a:link {
-    color: #4e9fe9;
-    text-decoration: none;
+        color: #4e9fe9;
+        text-decoration: none;
 }
 
 a:visited {
-    color: #4e9fe9;
-    text-decoration: none;
+        color: #4e9fe9;
+        text-decoration: none;
 }
 
 a:hover {
-    color: #51a4f7;
-    text-decoration: none;
-    -webkit-transition: color .05s ease-in-out;
-    transition: color .05s ease-in-out;
+        color: #51a4f7;
+        text-decoration: none;
+        -webkit-transition: color 0.05s ease-in-out;
+        transition: color 0.05s ease-in-out;
 }
 
 a:active {
-    color: #51a4f7;
-    text-decoration: none;
+        color: #51a4f7;
+        text-decoration: none;
 }
 
 select {
-    -moz-border-radius: 4px;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    padding: 4px 12px;
-    border: solid 2px #eee;
-    border-radius: 4px;
-    color: #666;
-    outline: none;
-    appearance: none;
-    background-color: transparent; 
+        -moz-border-radius: 4px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        padding: 4px 12px;
+        border: solid 2px #eee;
+        border-radius: 4px;
+        color: #666;
+        outline: none;
+        appearance: none;
+        background-color: transparent;
 }
 
 select:hover {
-    border: solid 2px #4e9fe9;
+        border: solid 2px #4e9fe9;
 }
