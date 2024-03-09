@@ -1,168 +1,168 @@
-html, body {
-    -webkit-text-size-adjust: none !important;
+html,
+body {
+        -webkit-text-size-adjust: none !important;
 
-    font-family: unset !important;
-    font-size: 16px !important;
-    line-height: 1.62;
+        font-family: unset !important;
+        font-size: 16px !important;
+        line-height: 1.62;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: allow;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: allow;
 
-    margin: 0rem;
-    padding: 0rem;
-    color: #232323;
+        margin: 0rem;
+        padding: 0rem;
+        color: #232323;
 }
 
 p {
-    margin: 0rem 0rem;
+        margin: 0rem 0rem;
 }
 
 .header {
-    padding: 40px 30px 10px 30px;   
-    background:linear-gradient(#feda7f, #ffffff);
+        padding: 60px 60px 10px 60px;
+        background: linear-gradient(#feda7f, #ffffff);
 }
 
 .title {
-    font-size: 1.4rem; 
-    font-weight: bold;
-    color: #131313;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #131313;
 }
 
 .subtitle {
-    font-size: 1.0rem; 
-    font-weight: bold;
-    color: #131313;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #131313;
 }
 
 .caption {
-    font-size: 0.85rem; 
+        font-size: 0.85rem;
 }
 
 .link-button {
-    font-size: 0.8rem; 
-    padding: 4px 4px;
-    color: #0072a7;
-    cursor: pointer;
+        font-size: 0.8rem;
+        padding: 4px 4px;
+        color: #0072a7;
+        cursor: pointer;
 }
 
 .link-button:hover {
-    color: #00000;
+        color: #00000;
 }
 
 .account {
-    color: #2aa3ef;
+        color: #2aa3ef;
 }
 
 .price-content {
-    display: flex;
+        display: flex;
 }
 
 .price-card {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
-    border-radius: 8px;
-    margin: 20px 20px;
-    padding: 0px 0px 20px 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+        border-radius: 8px;
+        margin: 20px 20px;
+        padding: 0px 0px 20px 0px;
 }
 
 .price-top {
-    background:linear-gradient(#f0ac01, #f6c42d);
-    border-radius: 8px 8px 0px 0px;
-    padding: 20px;
-    margin: 0px 0px 30px 0px;
+        background: linear-gradient(#f0ac01, #f6c42d);
+        border-radius: 8px 8px 0px 0px;
+        padding: 20px;
+        margin: 0px 0px 30px 0px;
 }
 
 .price-left {
-    background:linear-gradient(#07c160, #32cc7c);
-    border-radius: 8px 8px 0px 0px;
-    padding: 20px;
-    margin: 0px 0px 30px 0px;
+        background: linear-gradient(#07c160, #32cc7c);
+        border-radius: 8px 8px 0px 0px;
+        padding: 20px;
+        margin: 0px 0px 30px 0px;
 }
 
 .price-middle {
-    background:linear-gradient(#d35147, #e56359);
-    border-radius: 8px 8px 0px 0px;
-    padding: 20px;
-    margin: 0px 0px 30px 0px;
+        background: linear-gradient(#d35147, #e56359);
+        border-radius: 8px 8px 0px 0px;
+        padding: 20px;
+        margin: 0px 0px 30px 0px;
 }
 
 .price-right {
-    background:linear-gradient(#1678ff, #519aff);
-    border-radius: 8px 8px 0px 0px;
-    padding: 20px;
-    margin: 0px 0px 30px 0px;
+        background: linear-gradient(#1678ff, #519aff);
+        border-radius: 8px 8px 0px 0px;
+        padding: 20px;
+        margin: 0px 0px 30px 0px;
 }
 
 .price-text {
-    color: #fff;
-    opacity: 0.75;
+        color: #fff;
+        opacity: 0.75;
 }
 
 .price {
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 1.4rem; 
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    opacity: 0.95;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        opacity: 0.95;
 }
 
 .price-symbol {
-    font-size: 1.6rem; 
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    opacity: 0.95;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        opacity: 0.95;
 }
 
 .price-card-subtitle {
-    font-size: 1.0rem; 
-    padding: 0px 40px 8px 40px;
-    color: #444;
+        font-size: 1rem;
+        padding: 0px 40px 8px 40px;
+        color: #444;
 }
 
 .price-card-caption {
-    font-size: 0.8rem; 
-    font-weight: bold;
-    padding: 0 50px;
-    color: #444;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 0 50px;
+        color: #444;
 }
 
 .membership-description {
-    margin: 40px 20px;
+        margin: 40px 20px;
 }
 
 .membership-card {
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
-    border-radius: 8px;
-    padding: 30px 30px;
-    margin: 20px 20px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+        border-radius: 8px;
+        padding: 30px 30px;
+        margin: 20px 20px;
 }
 
 .os {
-    background-color: #f3f3f3;
-    border-radius: 4px;
-    padding-right: 4px;
-    font-size: 0.8rem; 
-    font-weight: bold;
+        background-color: #f3f3f3;
+        border-radius: 4px;
+        padding-right: 4px;
+        font-size: 0.8rem;
+        font-weight: bold;
 }
 
 .os img {
-    padding: 0px 4px;
+        padding: 0px 4px;
 }
 
 .faqs {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
-    border-radius: 8px;
-    background:linear-gradient(#f9f9f2, #ffffff);
-    padding: 40px 30px;
-    margin: 0px 0px 0px 0px;
-    word-wrap: break-word;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+        border-radius: 8px;
+        background: linear-gradient(#f9f9f2, #ffffff);
+        padding: 40px 30px;
+        margin: 0px 0px 0px 0px;
+        word-wrap: break-word;
 }
 
 .coffee {
-    margin: 0px 0px 10px 0px;
+        margin: 0px 0px 10px 0px;
 }
-
