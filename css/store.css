@@ -1,0 +1,46 @@
+.store {
+        display: inline-block;
+        text-align: left;
+        align-items: center;
+        border: 1px solid #111;
+        color: #fff;
+        padding: 6px 10px;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        background: linear-gradient(#333333, #333333);
+}
+
+.store img {
+        display: inline-block;
+        line-height: 16px;
+        align-items: center;
+        vertical-align: middle;
+}
+
+.store div {
+        display: inline-block;
+        margin: 4px;
+        line-height: 16px;
+
+        align-items: center;
+        vertical-align: middle;
+}
+
+.store-title {
+        font-size: 1.2rem;
+}
+
+.store-subtitle {
+        font-size: 0.7rem;
+}
+
+/**
+<div class="store">
+				<img src="images/googleplay.svg" width="36" height="36">
+				<div>
+				<span class="store-subtitle">GET IT ON</span>
+				<br />
+				<span class="store-title">Google Play</span>
+				</div>
+			</div>
+*/
