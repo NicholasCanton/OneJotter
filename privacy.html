@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="shortcut icon" href="../images/launcher.png" type="image/x-icon" />
+		<link rel="icon" href="../images/launcher.png" type="image/x-icon" />
+
+		<title>One Jotter</title>
+		<script>  
+        		let language = navigator.language || navigator.browserLanguage  ||  navigator.userLanguage || navigator.systemLanguage; 
+			try {
+    				language = language.trim();
+				language = language.toLowerCase();
+			} catch (error)  {
+			}
+
+			if (language.startsWith("zh")) {
+				window.location.href = "zh/privacy_policy.html";
+			} else {
+				window.location.href = "en/privacy_policy.html";
+			}
+    		</script>  
+	</head>
+	<body />
+</html>
